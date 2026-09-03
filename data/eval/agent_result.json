@@ -1,0 +1,209 @@
+{
+  "mode": "offline",
+  "generated_at": "2026-08-22T23:09:37",
+  "total": 20,
+  "passed": 7,
+  "pass_rate": 0.35,
+  "results": [
+    {
+      "id": "a01",
+      "question": "夏天和冬天分别应该选什么速度的羽毛球",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 尤尼克斯 YONEX BG-80，线径0.68mm，材质：侧丝：特殊高分子尼龙纤维编织、线芯： 维克特兰纤维和高分子尼龙复丝（来源：尤尼克斯 YONEX BG-80）\n[2] 其他 OTHER 速砺搏Z67Ti钛Spiral，线径0",
+      "passed": false
+    },
+    {
+      "id": "a02",
+      "question": "新手应该买什么类型的球拍，先练什么步法",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 李宁 LINING 雷霆Ⅱ PRO，鞋面：合成革/纺织品；中底：Phylon中底+超䨻+碳纤＋李宁云plus；大底：锋袭橡胶大底（来源：李宁 LINING 雷霆Ⅱ PRO）\n[2] 李宁 LINING 无敌号ACE虎纹，鞋面：纺织品",
+      "passed": false
+    },
+    {
+      "id": "a03",
+      "question": "全软木球头和双拼球头哪个更适合比赛，为什么",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "[1] 薰风 KUMPOO K+90，球速76,77（适合中低温(15-20°C)、中温(20-25°C)），鹅毛特级全圆(刀翎)（特级鹅刀翎全圆），球头全软木（全软木球头）（来源：薰风 KUMPOO K+90）\n[2] 赢鹰 赢鹰紫EAZ",
+      "passed": true
+    },
+    {
+      "id": "a04",
+      "question": "鹅毛和鸭毛哪个更耐打，飞行稳定性又有什么区别",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 蟹羽 PANHIGH 魅影，鞋面：超细纤维+抗耐磨KPU+绞综透气网布；中底：高弹性MD+碳纤维稳定片+TPU；大底：耐磨防滑橡胶（来源：蟹羽 PANHIGH 魅影）\n[2] 威克多 VICTOR P8510，鞋面：超细纤维PU革+",
+      "passed": false
+    },
+    {
+      "id": "a05",
+      "question": "4U的进攻型球拍和5U的有什么区别，分别适合什么人",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "[1] 李宁 LINING AXFORCE90NEW(AYPV001)，重量3U,4U,5U，拍柄G5,G6，中杆硬（3U）、适中（4U、5U），拉线磅数3U≤31LBS、4U≤30LBS、5U≤29LBS，综合型，适合通用级。进攻性强，3",
+      "passed": true
+    },
+    {
+      "id": "a06",
+      "question": "推荐一款红色手胶，顺便说说PU材质和毛巾材质哪个好",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 威克多 VICTOR GR2，PU/聚氨酯手胶（PU）白（来源：威克多 VICTOR GR2）\n[2] 薰风 KUMPOO KG-RMJ，棉质手胶（棉）白，绿（来源：薰风 KUMPOO KG-RMJ）\n[3] 其他 OTHER 闪跃",
+      "passed": false
+    },
+    {
+      "id": "a07",
+      "question": "单打和双打的场地边界有什么区别，发球规则又有什么不同",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 尤尼克斯 YONEX SHB-02LCW，鞋面：双层透气网面+第三代鞋头耐磨面料+强韧柔软高级合成革（Fit & Support 3）；中底：高弹性EVA+动力垫+TPU+高强度EVA+石墨连接片；大底：防滑耐磨橡胶（来源：尤尼克斯",
+      "passed": false
+    },
+    {
+      "id": "a08",
+      "question": "拉吊突击战术适合什么场景，练习时要注意什么",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 川崎 KAWASAKI 穿越2.0MID，中底：TPU抗扭片+川崎吸震垫+动力垫+碳纤稳定片+超弹EVA+ESS；大底：高强度 RB（来源：川崎 KAWASAKI 穿越2.0MID）\n[2] 威克多 VICTOR P9200 巭，鞋",
+      "passed": false
+    },
+    {
+      "id": "a09",
+      "question": "发球时击球点超过1.15米会怎样，发球过低算违例吗",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 尤尼克斯 YONEX AC108WEX，PU/聚氨酯手胶（聚氨酯+橡胶）白（来源：尤尼克斯 YONEX AC108WEX）\n[2] 尤尼克斯 YONEX 弓剑11PRO(ARC11-PYX)，重量3U,4U，拍柄G4,G5,G6，中",
+      "passed": false
+    },
+    {
+      "id": "a10",
+      "question": "冬天打羽毛球应该选什么球速，球头选什么材质更耐打",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 其他 OTHER 浦锐 毛巾胶，棉质手胶（棉）白（来源：其他 OTHER 浦锐 毛巾胶）\n[2] 尤尼克斯 YONEX SHB-98MX，鞋面：P.U.皮革+双层透气网面+第二代耐磨材料；中底：超轻中底+动力垫+固体E.V.A.+石",
+      "passed": false
+    },
+    {
+      "id": "a11",
+      "question": "推荐一款适合女生的进攻型球拍，配什么球线好",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "[1] 威克多 VICTOR 银龙牙(龙牙之刃中公赛纪念版)，重量3U,4U，拍柄G5，中杆硬，拉线磅数3U≤32LBS、4U≤31LBS，进攻型，适合进阶级。适合喜欢进攻、追求杀球威力的进阶球友。参考价格：859元（来源：威克多 VICT",
+      "passed": true
+    },
+    {
+      "id": "a12",
+      "question": "为什么有的羽毛球飞行不稳，怎么选更稳的球",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 威克多 VICTOR 银龙牙(龙牙之刃中公赛纪念版)，重量3U,4U，拍柄G5，中杆硬，拉线磅数3U≤32LBS、4U≤31LBS，进攻型，适合进阶级。适合喜欢进攻、追求杀球威力的进阶球友。参考价格：859元（来源：威克多 VICT",
+      "passed": false
+    },
+    {
+      "id": "a13",
+      "question": "双打站位战术有哪些，和单打战术有什么区别",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 尤尼克斯 YONEX SHB-02LCW，鞋面：双层透气网面+第三代鞋头耐磨面料+强韧柔软高级合成革（Fit & Support 3）；中底：高弹性EVA+动力垫+TPU+高强度EVA+石墨连接片；大底：防滑耐磨橡胶（来源：尤尼克斯",
+      "passed": false
+    },
+    {
+      "id": "a14",
+      "question": "高磅数球拍适合什么人，拉线磅数太高会怎样",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "[1] 李宁 LINING AYPW047(雷霆80二代MAX)，重量4U，拍柄G5，中杆硬，拉线磅数4U≤30LBS，进攻型，适合专业级。适合追求极致进攻体验的高水平选手。参考价格：1359元（来源：李宁 LINING AYPW047）\n",
+      "passed": true
+    },
+    {
+      "id": "a15",
+      "question": "初学者买球拍选3U还是4U，球拍太重会有什么影响",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "[1] 李宁 LINING AYPW049(雷霆80二代)，重量3U,4U,5U，拍柄G5,G6，中杆适中偏硬，拉线磅数3U≤31LBS、4U≤30LBS、5U≤29LBS，进攻型，适合进阶级。适合有一定基础、喜欢后场主动进攻、追求扎实杀球",
+      "passed": true
+    },
+    {
+      "id": "a16",
+      "question": "羽毛球的球速76和77差别大吗，高温和低温分别怎么选",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "[1] 翎美 翎美 G3，球速77（适合中低温(15-20°C)）（来源：翎美 翎美 G3）\n[2] 川崎 KAWASAKI AURORQ7(极光7)，重量5U，拍柄G6，中杆偏软，拉线磅数18-30LBS，平衡点302±2mm（头重(进攻",
+      "passed": true
+    },
+    {
+      "id": "a17",
+      "question": "正手高远球怎么打，打不远是什么原因",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 其他 OTHER 合能矩阵毛巾胶，棉质手胶（棉）白（来源：其他 OTHER 合能矩阵毛巾胶）\n[2] 其他 OTHER 浦锐 毛巾胶，棉质手胶（棉）白（来源：其他 OTHER 浦锐 毛巾胶）\n[3] 其他 OTHER 的幸 大盘毛巾",
+      "passed": false
+    },
+    {
+      "id": "a18",
+      "question": "反手握拍的动作要领是什么，常见的错误有哪些",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 薰风 KUMPOO 修罗II(修罗2)，重量4U，拍柄G5，中杆硬，拉线磅数≤32LBS，平衡点305±3mm（头重(进攻)），进攻型，适合通用级。适合力量充足、喜欢硬朗打感和高磅数的进攻型选手。参考价格：368元（来源：薰风 KU",
+      "passed": false
+    },
+    {
+      "id": "a19",
+      "question": "球拍平衡点靠前和靠后有什么区别，进攻型选手选哪个",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "[1] 威克多 VICTOR 小核武器黑/白，重量4U,5U，拍柄G5，中杆适中，拉线磅数4U≤31LBS、5U≤30LBS，平衡点300mm（头重(进攻)），灵活型，适合通用级。适合追求轻量进攻和连贯性的球友。参考价格：246元（来源：威",
+      "passed": true
+    },
+    {
+      "id": "a20",
+      "question": "什么是四方球战术，对新手来说好掌握吗",
+      "route": "multi",
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": false,
+      "answer": "[1] 尤尼克斯 YONEX SHB-02LCW，鞋面：双层透气网面+第三代鞋头耐磨面料+强韧柔软高级合成革（Fit & Support 3）；中底：高弹性EVA+动力垫+TPU+高强度EVA+石墨连接片；大底：防滑耐磨橡胶（来源：尤尼克斯",
+      "passed": false
+    }
+  ]
+}

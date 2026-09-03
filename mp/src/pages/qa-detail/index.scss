@@ -1,0 +1,57 @@
+/* 问答分享详情：转发落地页（onShareAppMessage）+ 保存海报（canvas） */
+
+@import '../../styles/theme.scss';
+
+.page { min-height: 100vh; background: $bg; padding: 24rpx 32rpx 60rpx; }
+
+.ans {
+  background: #fff;
+  border-radius: 44rpx;
+  padding: 34rpx 32rpx;
+  box-shadow: $shadow;
+}
+.ans .q { font-size: 36rpx; font-weight: 800; line-height: 1.5; }
+.ans .meta {
+  display: flex;
+  gap: 12rpx;
+  margin-top: 14rpx;
+  font-size: 21rpx;
+  color: $ink-3;
+  align-items: center;
+}
+.ans .meta .badge { font-size: 20rpx; font-weight: 700; background: $g-100; color: $g-700; border-radius: 999rpx; padding: 4rpx 16rpx; }
+.ans .txt { margin-top: 24rpx; font-size: 27rpx; line-height: 1.85; color: $ink; }
+
+.src-hd {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  margin-top: 22rpx;
+  padding-top: 22rpx;
+  border-top: 2rpx dashed $line;
+  font-size: 24rpx;
+  color: $g-700;
+}
+.src-tbl { margin-top: 14rpx; border: 2rpx solid $line; border-radius: 24rpx; overflow: hidden; font-size: 22rpx; }
+.src-tbl .row { display: flex; }
+.src-tbl .row > view { flex: 1; padding: 12rpx 16rpx; }
+.src-tbl .row.hd { background: $g-50; color: $g-800; font-weight: 700; }
+
+.actions { display: flex; gap: 20rpx; margin-top: 32rpx; }
+.actions .btn {
+  flex: 1;
+  height: 92rpx;
+  border-radius: 46rpx;
+  font-size: 28rpx;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actions .btn.primary { background: $grad-brand; color: #fff; box-shadow: 0 20rpx 44rpx rgba(4, 95, 70, 0.3); }
+.actions .btn.ghost { background: #fff; color: $g-700; border: 3rpx solid $g-200; }
+
+.note { margin-top: 20rpx; text-align: center; font-size: 21rpx; color: $ink-3; }
+
+/* 离屏画布（海报导出用） */
+.poster-canvas { position: fixed; left: -9999rpx; top: 0; width: 680rpx; height: 1000rpx; }

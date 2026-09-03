@@ -1,0 +1,272 @@
+[
+  {
+    "id": "q01",
+    "question": "4U和5U球拍有什么区别",
+    "expect_collections": ["racket_specs"],
+    "expect_keywords": ["4U", "5U"],
+    "expect_fallback": false,
+    "reference_answer": "4U≈80-84克、5U≈75-79克，4U更重，适合力量较大、追求进攻的选手；5U更轻，适合力量较小或追求挥速的选手",
+    "note": "规格表：重量档位对比"
+  },
+  {
+    "id": "q02",
+    "question": "推荐一款适合初学者的球拍",
+    "expect_collections": ["racket_specs"],
+    "expect_keywords": ["入门"],
+    "expect_fallback": false,
+    "reference_answer": "初学者适合选择适合水平为入门级、重量轻、易上手的球拍，如威克多神速50J、突击280、尤尼克斯ARCLT5I等",
+    "note": "规格表：适合水平=入门级"
+  },
+  {
+    "id": "q03",
+    "question": "平衡点超过300的进攻型球拍有哪些",
+    "expect_collections": ["racket_specs"],
+    "expect_keywords": ["平衡点", "进攻"],
+    "expect_fallback": false,
+    "reference_answer": "平衡点超过300mm且打法类型为进攻型的球拍，如尤尼克斯天斧100ZZ（305mm）、天斧99（305mm）、威克多DX-12ZSW（316mm）、李宁雷霆90MAX（307-309mm）等",
+    "note": "规格表：头重进攻拍"
+  },
+  {
+    "id": "q04",
+    "question": "最高磅数不低于28磅的球拍推荐",
+    "expect_collections": ["racket_specs"],
+    "expect_keywords": ["28"],
+    "expect_fallback": false,
+    "reference_answer": "最高磅数不低于28LBS的球拍，如威克多突击9900（最高35LBS）、击破M2.0（最高30LBS）、白游龙（最高36LBS）等",
+    "note": "规格表：高磅数上限"
+  },
+  {
+    "id": "q05",
+    "question": "推荐一款YONEX的进攻型球拍",
+    "expect_collections": ["racket_specs"],
+    "expect_keywords": ["YONEX", "进攻"],
+    "expect_fallback": false,
+    "reference_answer": "YONEX品牌、打法类型为进攻型的球拍，如天斧100ZZ、天斧99、VT-ZF2等",
+    "note": "规格表：品牌+打法类型"
+  },
+  {
+    "id": "q06",
+    "question": "鹅毛和鸭毛羽毛球哪个更耐打",
+    "expect_collections": ["feather_type", "durability_factors"],
+    "expect_keywords": ["耐打", "鹅", "鸭"],
+    "expect_fallback": false,
+    "reference_answer": "鹅毛比鸭毛更直更耐打；鹅毛中鹅单边耐打性最高，鸭毛中驼背最耐打",
+    "note": "知识表：跨表召回"
+  },
+  {
+    "id": "q07",
+    "question": "单打和双打的场地边界有什么区别",
+    "expect_collections": ["bwf_rules"],
+    "expect_keywords": ["单打", "双打", "边线"],
+    "expect_fallback": false,
+    "reference_answer": "单打以外侧边线为界，双打以内侧边线为界；单打宽5.18m、双打宽6.1m，场地长13.40m",
+    "note": "回归：修复检索截断"
+  },
+  {
+    "id": "q08",
+    "question": "发球时击球点高度有什么限制",
+    "expect_collections": ["bwf_rules"],
+    "expect_keywords": ["1.15"],
+    "expect_fallback": false,
+    "reference_answer": "2018年起发球击球点不得超过1.15m（原规则为过腰）",
+    "note": "知识表：BWF 发球规则"
+  },
+  {
+    "id": "q09",
+    "question": "拉吊突击战术怎么打",
+    "expect_collections": ["tactics"],
+    "expect_keywords": ["拉吊", "突击"],
+    "expect_fallback": false,
+    "reference_answer": "拉吊突击：先用高远球和吊球控制对方后场，待对方回球质量不高时抓住机会快速突击杀球得分；拉吊阶段要有耐心，突击时机要准确",
+    "note": "知识表：战术"
+  },
+  {
+    "id": "q10",
+    "question": "推荐一款红色的手胶",
+    "expect_collections": ["grip_specs"],
+    "expect_keywords": ["红", "GP203"],
+    "expect_fallback": false,
+    "reference_answer": "李宁GP203为PU/聚氨酯手胶，颜色包含红、黑、白、黄、荧光绿、玫红、蓝，属于含红色手胶",
+    "note": "回归：修复颜色等值匹配"
+  },
+  {
+    "id": "q11",
+    "question": "哪款球鞋适合初学者",
+    "expect_collections": [],
+    "expect_keywords": [],
+    "expect_fallback": true,
+    "reference_answer": "",
+    "note": "负例：shoe 表无适合水平字段，应兜底"
+  },
+  {
+    "id": "q12",
+    "question": "今天天气如何",
+    "expect_collections": [],
+    "expect_keywords": [],
+    "expect_fallback": true,
+    "reference_answer": "",
+    "note": "负例：无关问题，应兜底"
+  },
+  {
+    "id": "q13",
+    "question": "推荐一款 YONEX 的球线",
+    "expect_collections": ["string_specs"],
+    "expect_keywords": ["YONEX", "线"],
+    "expect_fallback": false,
+    "reference_answer": "YONEX品牌的球线型号与线径，如BG-65（0.70mm）、BG-80（0.68mm）、AEROSONIC（0.61mm）、NANOGY 98（0.66mm）等",
+    "note": "规格表：品牌球线推荐"
+  },
+  {
+    "id": "q14",
+    "question": "李宁有什么羽毛球鞋",
+    "expect_collections": ["shoe_specs"],
+    "expect_keywords": ["李宁"],
+    "expect_fallback": false,
+    "reference_answer": "李宁品牌球鞋型号与鞋面/中底材质，如雷霆（合成革+纺织品，PHYLON中底）、无敌号ACE、刀锋MAX、贴地飞行系列等",
+    "note": "规格表：品牌球鞋"
+  },
+  {
+    "id": "q15",
+    "question": "推荐一款耐打的羽毛球",
+    "expect_collections": ["shuttlecock_specs"],
+    "expect_keywords": ["耐打"],
+    "expect_fallback": false,
+    "reference_answer": "耐打型羽毛球通常采用耐打性高的毛片（如鸭单边/鸭驼背）与双拼或三拼球头，如威克多CHAMPION NO.7（鸭毛、双拼复合）等",
+    "note": "规格表：耐打型羽毛球"
+  },
+  {
+    "id": "q16",
+    "question": "76 和 77 球速有什么区别",
+    "expect_collections": ["shuttlecock_specs"],
+    "expect_keywords": ["76", "77"],
+    "expect_fallback": false,
+    "reference_answer": "76为慢速（适合20-25°C中温）、77为中速（适合15-20°C中低温），76飞行比77慢，适用温度越高球速应越慢",
+    "note": "规格表：球速档位对比"
+  },
+  {
+    "id": "q17",
+    "question": "4U 球拍适合什么样的人",
+    "expect_collections": ["racket_specs"],
+    "expect_keywords": ["4U", "适合"],
+    "expect_fallback": false,
+    "reference_answer": "4U球拍重量约80-84克，是多数选手的通用重量档位，适合追求力量、进攻与灵活性兼顾的球友",
+    "note": "规格表：4U重量档位与适合人群"
+  },
+  {
+    "id": "q18",
+    "question": "推荐一款平衡点靠前(头重)的球拍",
+    "expect_collections": ["racket_specs"],
+    "expect_keywords": ["头重", "平衡"],
+    "expect_fallback": false,
+    "reference_answer": "平衡点靠前（头重/进攻）的球拍型号，如威克多DX-12ZSW（316mm）、尤尼克斯天斧100ZZ（305mm）、李宁雷霆90MAX（307-309mm）等",
+    "note": "规格表：头重进攻拍"
+  },
+  {
+    "id": "q19",
+    "question": "全软木球头和三拼球头哪个好",
+    "expect_collections": ["cork_material"],
+    "expect_keywords": ["软木", "三拼"],
+    "expect_fallback": false,
+    "reference_answer": "全软木（天然软木）为纯天然软木、弹性足、打感清脆扎实、出球速度快，适合高水平/专业球员高端比赛用球；三拼球头为上下两层全天然软木+中间台纤，打感比全软木稍差但耐打性更好，性价比高，是大多数球员首选",
+    "note": "知识表：球头材质对比"
+  },
+  {
+    "id": "q20",
+    "question": "一级毛片长什么样",
+    "expect_collections": ["feather_grade"],
+    "expect_keywords": ["一级", "毛片"],
+    "expect_fallback": false,
+    "reference_answer": "一级毛片为最高等级毛片，毛片完整、粗细均匀、弯曲度小，外观笔直、粗细一致、无明显瑕疵，耐打性优秀，用于高端比赛/专业训练用球",
+    "note": "知识表：毛片等级"
+  },
+  {
+    "id": "q21",
+    "question": "夏天应该选什么速度的羽毛球",
+    "expect_collections": ["speed_grade"],
+    "expect_keywords": ["75", "高温"],
+    "expect_fallback": false,
+    "reference_answer": "夏季高温（25°C以上）应选75慢速球，避免球速过快出界",
+    "note": "知识表：速度等级与适用温度"
+  },
+  {
+    "id": "q22",
+    "question": "发球过高会怎样",
+    "expect_collections": ["common_penalties"],
+    "expect_keywords": ["发球", "违例"],
+    "expect_fallback": false,
+    "reference_answer": "发球过高（击球点超过1.15m，2018年新规则）属于发球违例，对方得分",
+    "note": "知识表：常见判罚"
+  },
+  {
+    "id": "q23",
+    "question": "正手握拍的动作要领",
+    "expect_collections": ["hand_techniques"],
+    "expect_keywords": ["正手", "握拍"],
+    "expect_fallback": false,
+    "reference_answer": "正手握拍：虎口对准拍柄窄面的小棱边，拇指和食指贴在拍柄两个宽面上，食指和中指稍分开，中指、无名指、小指并拢握住拍柄，掌心留有空隙，拍面基本与地面垂直",
+    "note": "知识表：手法技术"
+  },
+  {
+    "id": "q24",
+    "question": "启动步是什么",
+    "expect_collections": ["footwork_techniques"],
+    "expect_keywords": ["启动步"],
+    "expect_fallback": false,
+    "reference_answer": "启动步是在对手击球瞬间通过小跳或垫步实现快速启动的步法，是所有步法的前提；动作要领为膝盖微屈、重心前倾，对手击球瞬间双脚同时轻微跳起或小垫步，利用反作用力向目标方向蹬地启动",
+    "note": "知识表：步法技术"
+  },
+  {
+    "id": "q25",
+    "question": "四方球战术怎么打",
+    "expect_collections": ["tactics"],
+    "expect_keywords": ["四方", "吊球"],
+    "expect_fallback": false,
+    "reference_answer": "四方球战术：运用高远球和吊球将球打到对方场地四个角（前后左右），调动对手大范围跑动创造进攻机会；高远球和吊球动作要一致增加隐蔽性，落点要深尽量打到底线附近，配合杀球和放网让对手无法预判",
+    "note": "知识表：战术"
+  },
+  {
+    "id": "q26",
+    "question": "什么因素影响球的飞行稳定性",
+    "expect_collections": ["flight_stability"],
+    "expect_keywords": ["重量", "重心"],
+    "expect_fallback": false,
+    "reference_answer": "影响飞行稳定性的因素：重量（均匀分布更稳定）、重心（靠前更稳定不易翻滚）、毛片对称性（对称性越高越稳定）、毛片类型（鹅刀翎全圆最优）、毛片处理工艺、速度等级",
+    "note": "知识表：飞行稳定性影响因素"
+  },
+  {
+    "id": "q27",
+    "question": "哪些因素影响羽毛球耐打度",
+    "expect_collections": ["durability_factors"],
+    "expect_keywords": ["毛片", "韧性"],
+    "expect_fallback": false,
+    "reference_answer": "影响耐打度的因素：毛片韧性（鹅单边最高）、球头硬度（天然软木最优）、毛片厚度（越厚越耐打但可能影响飞行稳定性）、毛片弯曲度（越直越耐打）、环境湿度、温度、使用方式",
+    "note": "知识表：耐打度影响因素"
+  },
+  {
+    "id": "q28",
+    "question": "鹅刀翎和鹅单边毛片哪个更适合比赛",
+    "expect_collections": ["feather_type"],
+    "expect_keywords": ["鹅刀翎", "比赛"],
+    "expect_fallback": false,
+    "reference_answer": "鹅刀翎（鹅全圆）飞行稳定性优秀（最高）且耐打性优秀，是国际比赛/高级比赛首选用球（如As40/As50）；鹅单边耐打性最高但飞行性能较差，更适合耐打型训练用球。因此比赛更适合鹅刀翎",
+    "note": "知识表：毛片类型对比"
+  },
+  {
+    "id": "q29",
+    "question": "双打比赛发球应该发到哪里",
+    "expect_collections": ["bwf_rules"],
+    "expect_keywords": ["发球", "双打"],
+    "expect_fallback": false,
+    "reference_answer": "双打发球须发到斜对角的双打发球区内，前发球线距网1.98m，后发球线为双打后发球线（距底线0.72m）；发球方分数为奇数时在左半场发球，偶数时在右半场发球",
+    "note": "知识表：BWF 双打发球规则"
+  },
+  {
+    "id": "q30",
+    "question": "羽毛球拍什么牌子最好（无依据）",
+    "expect_collections": [],
+    "expect_keywords": [],
+    "expect_fallback": true,
+    "reference_answer": "",
+    "note": "负例：无客观答案，应兜底"
+  }
+]

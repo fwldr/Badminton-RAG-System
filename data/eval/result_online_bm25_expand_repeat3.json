@@ -1,0 +1,2296 @@
+{
+  "mode": "online+bm25+expand",
+  "repeat": 3,
+  "generated_at": "2026-08-21T23:12:23",
+  "total": 30,
+  "passed": 24,
+  "pass_rate": 0.8,
+  "results": [
+    {
+      "id": "q01",
+      "question": "4U和5U球拍有什么区别",
+      "repeat": 3,
+      "try_passed": 0,
+      "per_try": [
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "feather_grade",
+        "feather_type",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q02",
+      "question": "推荐一款适合初学者的球拍",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "以下球拍适合初学者：\n1. 尤尼克斯 YONEX 锐速D11：重量3U，中杆适中，拉线磅数19-24LBS，灵活型，适合入门级。来源：尤尼克斯 YONEX 锐速D11\n2. 川崎 KAWASAKI 大师600：中杆适中，拉线磅数18-30LBS，平衡点290±2mm（均衡），灵活型，适合入门级。来源：川崎 KAWASAKI 大师600\n3. 威克多 VICTOR 神速50J：重量4U，中杆适中，拉线磅数≤27LBS，灵活型，适合入门级，参考价格334元。来源：威克多 VICTOR 神速50J\n4. 川崎 KAWASAKI AURORQ7：重量5U，中杆偏软，拉线磅数18-30LBS，平衡点302±2mm（头重），灵活型，适合入门级，参考价格177元。来源：川崎 KAWASAKI AURORQ7",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐威克多 VICTOR 神速50J(ARS50J)，重量4U，拍柄G5，中杆适中，拉线磅数≤27LBS，灵活型，适合入门级，适合力量较小、追求易上手打感的入门及女性球友，参考价格334元。\n\n来源：威克多 VICTOR 神速50J",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐以下几款适合初学者的球拍：\n1. 尤尼克斯 YONEX 锐速D11：重量3U，中杆适中，拉线磅数19-24LBS，灵活型，适合入门级，适合初学者或追求舒适打感的球友。（来源：尤尼克斯 YONEX 锐速D11）\n2. 川崎 KAWASAKI 大师600：中杆适中，拉线磅数18-30LBS，平衡点290±2mm，灵活型，适合入门级，适合追求均衡、轻量打感的入门级或女性球友。（来源：川崎 KAWASAKI 大师600）\n3. 威克多 VICTOR 神速50J：重量4U，中杆适中，拉线磅数≤27LBS，灵活型，适合入门级，适合力量较小、追求易上手打感的入门及女性球友，参考价格334元。（来源：威克多 VICTOR 神速50J）\n4. 川崎 KAWASAKI AURORQ7：重量5U，中杆偏软，拉线磅数18-30LBS，平衡点302±2mm，灵活型，适合入门级，适合力量较小、喜欢轻量打感的入门级球友，参考价格177元。（来源：川崎 KAWASAKI AURORQ7）\n这些球拍均为入门级，可根据个人偏好选择。",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "feather_type",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q03",
+      "question": "平衡点超过300的进攻型球拍有哪些",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "根据知识库，以下为平衡点超过300的进攻型球拍：\n1. 波力 BONNY 幻影90（平衡点300±5mm）\n2. 波力 BONNY 玄武（平衡点300±5mm）\n3. 威臣 VS 白游龙（平衡点305±3mm）\n4. 尤尼克斯 YONEX 天斧100ZZ（平衡点305mm）\n\n注意：波力 BONNY 幻影90和玄武的平衡点范围在295-305mm之间，可能不完全超过300；但按照其标注为头重（进攻）型，可视为近似。其他 OTHER 战鹰系列 突袭的平衡点为290-295mm，未超过300，故不列入。\n\n来源：波力 BONNY 幻影90；波力 BONNY 玄武；威臣 VS 白游龙；尤尼克斯 YONEX 天斧100ZZ",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "平衡点超过300的进攻型球拍有：\n1. 波力 BONNY 幻影90，平衡点300±5mm（头重(进攻)）\n2. 波力 BONNY 玄武，平衡点300±5mm（均衡）\n3. 威臣 VS 白游龙，平衡点305±3mm（头重(进攻)）\n4. 尤尼克斯 YONEX 天斧100ZZ，平衡点305mm（头重(进攻)）\n\n来源：波力 BONNY 幻影90；波力 BONNY 玄武；威臣 VS 白游龙；尤尼克斯 YONEX 天斧100ZZ",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "平衡点超过300的进攻型球拍有：\n1. 波力 BONNY 幻影90，平衡点300±5mm（头重），进攻型，参考价格380元（来源：波力 BONNY 幻影90）\n2. 威臣 VS 白游龙，平衡点305±3mm（头重），进攻型，参考价格314元（来源：威臣 VS 白游龙）\n3. 尤尼克斯 YONEX 天斧100ZZ，平衡点305mm（头重），进攻型，参考价格1476元（来源：尤尼克斯 YONEX 天斧100ZZ）\n注意：波力 BONNY 玄武平衡点300±5mm（均衡），虽平衡点可能超过300，但标注为均衡型；其他 OTHER 战鹰系列 突袭平衡点290-295mm，未超过300。",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q04",
+      "question": "最高磅数不低于28磅的球拍推荐",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "根据知识库，以下球拍最高磅数不低于28磅：\n1. 尤尼克斯 疾光1000PALY，最高28磅，价格1765元；\n2. 尤尼克斯 77pro陈雨菲，最高28磅，价格1238元；\n3. 威克多 神速8000，最高30磅，价格275元；\n4. 尤尼克斯 ARCLT5I，最高28磅，价格443元。\n来源：尤尼克斯 疾光1000PALY；尤尼克斯 77pro陈雨菲；威克多 神速8000；尤尼克斯 ARCLT5I",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐以下最高磅数不低于28磅的球拍：\n1. 尤尼克斯 疾光1000PALY，拉线磅数20-28LBS，参考价格1765元；\n2. 尤尼克斯 77pro陈雨菲，拉线磅数20-28LBS，参考价格1238元；\n3. 威克多 神速8000，拉线磅数≤30LBS，参考价格275元。\n来源：尤尼克斯 疾光1000PALY；尤尼克斯 77pro陈雨菲；威克多 神速8000",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "以下为最高磅数不低于28磅的球拍推荐：\n1. 尤尼克斯 YONEX 疾光1000PALY（NF1000PALY）：拉线磅数20-28LBS，重量4U，适合追求高性价比和易上手打法的球友。参考价格：1765元。\n2. 尤尼克斯 YONEX 77pro陈雨菲：拉线磅数20-28LBS，重量4U，适合追求均衡、易上手打法的球友，尤其适合女性。参考价格：1238元。\n3. 威克多 VICTOR 神速8000（ARS8000）：拉线磅数≤30LBS，重量4U，适合追求均衡性能的业余球友。参考价格：275元。\n4. 尤尼克斯 YONEX ARCLT5I（弓剑LT5I）：拉线磅数20-28LBS，重量5U，适合力量不大、追求轻量灵活和舒适手感的新手及进阶玩家。参考价格：443元。\n\n来源：尤尼克斯 YONEX 疾光1000PALY、尤尼克斯 YONEX 77pro陈雨菲、威克多 VICTOR 神速8000、尤尼克斯 YONEX ARCLT5I",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q05",
+      "question": "推荐一款YONEX的进攻型球拍",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "推荐以下YONEX进攻型球拍：\n1. 天斧88dpro新色：适合后场进攻型打法，中杆硬，3U拉线磅数21-29LBS，4U为20-28LBS，参考价格1476元。\n2. 天斧88DTOUR新色：适合进阶后场进攻型选手，中杆硬，磅数范围同上，参考价格653元。\n3. VT-FLCW：适合喜欢头重进攻打法的女性球友，4U，中杆硬，磅数20-27LBS。\n来源：尤尼克斯 YONEX 天斧88dpro新色；尤尼克斯 YONEX 天斧88DTOUR新色；尤尼克斯 YONEX VT-FLCW",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "推荐尤尼克斯天斧88D Pro新色，重量3U/4U，中杆硬，适合后场进攻型打法选手，参考价格1476元。另可考虑天斧88D Tour新色，适合进阶选手，参考价格653元。\n来源：尤尼克斯 YONEX 天斧88dpro新色；尤尼克斯 YONEX 天斧88DTOUR新色",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "根据知识库，推荐以下YONEX进攻型球拍：\n1. VT-FLCW：重量4U，中杆硬，进攻型，适合通用级，适合喜欢头重进攻打法的女性球友。\n2. 天斧88dpro新色：重量3U/4U，中杆硬，进攻型，适合通用级，适合后场进攻型打法的选手，参考价格1476元。\n3. 天斧88DTOUR新色：重量3U/4U，中杆硬，进攻型，适合进阶级，适合后场进攻型打法的进阶选手，参考价格653元。\n\n来源：尤尼克斯 YONEX VT-FLCW；尤尼克斯 YONEX 天斧88dpro新色；尤尼克斯 YONEX 天斧88DTOUR新色",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "grip_specs",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q06",
+      "question": "鹅毛和鸭毛羽毛球哪个更耐打",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "鹅毛比鸭毛更耐打，因为鹅毛比鸭毛更直，弯曲度越小（越直）的毛片耐打性越好；同时耐打性排序中鹅毛整体优于鸭毛，如鹅单边＞鹅大刀＞鹅方头等，而鸭毛中驼背＞小方＞中方等。此外，环境湿度也会影响耐打性，高湿度下毛片易变软炸毛，低湿度下变脆易断，南方潮湿地区建议选鸭球或鹅毛拉直球，西北干燥地区选水鸭球或鸭球。\n来源：耐打度影响因素、毛片类型 鸭中方、毛片类型 鸭单边",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "鹅毛通常比鸭毛更耐打，因为鹅毛毛片更直、弯曲度更小，耐打性更好。但耐打性也受毛片类型影响，例如鸭单边毛片耐打性优秀（最高），但飞行性能较差；鸭中方平衡手感和耐打性。综合来看，鹅毛整体耐打性优于鸭毛，但具体选择还需考虑使用场景和环境湿度。\n\n来源：耐打度影响因素；毛片类型 鸭中方；毛片类型 鸭单边",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "根据检索内容，鹅毛比鸭毛更直且更耐打。耐打性排序中，鹅毛片的耐打性普遍优于鸭毛片（如鹅单边、鹅大刀等均在鸭毛之上），且鹅毛更直，弯曲度更小，耐打性更好。因此，鹅毛羽毛球通常比鸭毛更耐打。\n\n来源：耐打度影响因素、毛片类型 鸭中方、耐打度影响因素、毛片类型 鸭单边",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "feather_type",
+        "flight_stability",
+        "grip_specs",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q07",
+      "question": "单打和双打的场地边界有什么区别",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "tactics"
+          ],
+          "answer": "单打和双打的场地边界区别主要体现在边线和有效区域上。单打使用外侧边线和底线，发球时发到斜对角单打发球区；双打使用内侧边线和底线（发球时），对打中使用外侧边线和底线，且双打后发球线比单打靠前0.72米。来源：BWF官方规则 单打规则；BWF官方规则 双打规则",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "tactics"
+          ],
+          "answer": "单打和双打的场地边界区别如下：单打使用外侧边线和底线，发球时发到斜对角单打发球区；双打使用内侧边线和底线（发球）或外侧边线和底线（对打中），双打后发球线比单打靠前0.72m。来源：BWF官方规则 单打规则；来源：BWF官方规则 双打规则",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "tactics"
+          ],
+          "answer": "单打和双打的场地边界区别主要在边线和底线使用上：单打使用外侧边线和底线；双打对打中使用外侧边线和底线，但发球时使用内侧边线和前发球线（即双打后发球线比单打靠前0.72m）。来源：BWF官方规则 单打规则、BWF官方规则 双打规则",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shoe_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q08",
+      "question": "发球时击球点高度有什么限制",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_grade",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "根据羽毛球规则，发球时击球点高度不得超过1.15m（2018年起新规则，原规则为过腰限制）。若超过此高度，则判发球违例，对方得分。\n\n来源：BWF官方规则 发球规则；常见判罚 发球过高",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_grade",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "发球时击球点高度限制为不得超过1.15m（2018年起，原规则为过腰），使用发球裁判和1.15m标尺判定。若超过此高度，判罚为发球违例，对方得分。\n\n来源：BWF官方规则 发球规则；常见判罚 发球过高",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_grade",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "发球时击球点高度不得超过1.15m，此规则自2018年起实施，原规则为过腰限制。若击球点超过1.15m，则判发球违例，对方得分。\n\n来源：BWF官方规则 发球规则；常见判罚 发球过高",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "feather_grade",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q09",
+      "question": "拉吊突击战术怎么打",
+      "repeat": 3,
+      "try_passed": 2,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "hand_techniques",
+            "racket_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "拉吊突击战术打法如下：先通过高远球和吊球控制对方后场，待对方回球质量不高时，抓住机会快速突击杀球得分。适用场景为单打比赛，自身进攻能力较强但体能有限时。战术要点：拉吊阶段要有耐心，不急于进攻；突击时机要准确（对方回球半场高球时）；突击后要有连续进攻的准备。来源：战术 单打",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "hand_techniques",
+            "racket_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "拉吊突击（单打）战术要点：先通过高远球和吊球控制对方后场，待对方回球质量不高时，抓住机会快速突击杀球得分。适用场景：单打比赛，自身进攻能力较强但体能有限时。战术要点：拉吊阶段要有耐心，不急于进攻；突击时机要准确（对方回球半场高球时）；突击后要有连续进攻的准备。\n\n来源：战术 单打",
+          "passed": true
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "hand_techniques",
+            "racket_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "hand_techniques",
+        "racket_specs",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q10",
+      "question": "推荐一款红色的手胶",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "grip_specs",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐李宁 GP203 红色手胶。来源：李宁 LINING GP203",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "grip_specs",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "李宁 LINING GP203 手胶提供红色款式（来源：李宁 LINING GP203）",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "grip_specs",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐李宁 LINING GP203，有红色可选。来源：李宁 LINING GP203",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "grip_specs",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q11",
+      "question": "哪款球鞋适合初学者",
+      "repeat": 3,
+      "try_passed": 2,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "根据知识库，以下球拍适合初学者：\n1. 尤尼克斯 YONEX 锐速D11，灵活型，适合入门级，初学者或追求舒适打感的球友。\n2. 尤尼克斯 YONEX ISO048，中杆偏软，适合入门级，追求舒适手感的球友。\n3. 川崎 KAWASAKI 大师600，灵活型，适合入门级，追求均衡、轻量打感的入门级或女性球友。\n4. 川崎 KAWASAKI AURORQ7，重量5U，中杆偏软，适合力量较小、喜欢轻量打感的入门级球友。\n此外，关于球头材质，双拼球头价格低，适合初学者和业余球员。\n来源：尤尼克斯 YONEX 锐速D11、尤尼克斯 YONEX ISO048、川崎 KAWASAKI 大师600、川崎 KAWASAKI AURORQ7、球头材质 双拼球头",
+          "passed": false
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        }
+      ],
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "feather_type",
+        "hand_techniques",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "speed_grade",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q12",
+      "question": "今天天气如何",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "durability_factors",
+            "flight_stability",
+            "shuttlecock_specs",
+            "speed_grade"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "durability_factors",
+            "flight_stability",
+            "shuttlecock_specs",
+            "speed_grade"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "durability_factors",
+            "flight_stability",
+            "shuttlecock_specs",
+            "speed_grade"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "durability_factors",
+        "flight_stability",
+        "shuttlecock_specs",
+        "speed_grade"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q13",
+      "question": "推荐一款 YONEX 的球线",
+      "repeat": 3,
+      "try_passed": 0,
+      "per_try": [
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "grip_specs",
+        "hand_techniques",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q14",
+      "question": "李宁有什么羽毛球鞋",
+      "repeat": 3,
+      "try_passed": 0,
+      "per_try": [
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "grip_specs",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q15",
+      "question": "推荐一款耐打的羽毛球",
+      "repeat": 3,
+      "try_passed": 2,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "根据检索内容，推荐以下耐打的羽毛球：\n\n- 鹅刀翎(鹅全圆)：毛片直、粗、硬，飞行性能和耐打性能俱佳，适合高级比赛使用（来源：毛片类型 鹅刀翎(鹅全圆)）。\n- 向羽E300：鹅毛材质，耐打性较好，适合中低温环境（来源：向羽 向羽E300）。\n\n注意：凯胜KS09为鸭毛材质，耐打性一般，不推荐作为耐打球首选（来源：凯胜 KASON KS09）。\n\n来源：毛片类型 鹅刀翎(鹅全圆)、向羽 向羽E300",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "根据检索内容，若推荐耐打的羽毛球，鹅刀翎（鹅全圆）毛片的耐打性和飞行性能俱佳，是最耐打的选择，常见于尤尼克斯As40/As50等高端赛事用球（来源：毛片类型 鹅刀翎(鹅全圆)）。此外，向羽E300采用鹅毛材质，耐打性较好（来源：向羽 向羽E300）。凯胜KS09为鸭毛材质，耐打性一般（来源：凯胜 KASON KS09）。因此，推荐优先选择鹅刀翎或鹅毛材质羽毛球。",
+          "passed": true
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "feather_type",
+        "grip_specs",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q16",
+      "question": "76 和 77 球速有什么区别",
+      "repeat": 3,
+      "try_passed": 2,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "hand_techniques",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "76球速为中等偏慢，适用温度20-25°C，常见于温带地区春秋季；77球速为中等，适用温度15-20°C，常见于温带地区冬季或低温环境。总体而言，77比76飞行速度稍快，适用于更低的温度，而76在常见温度下更为通用。\n\n来源：速度等级 76(中慢速)、速度等级 77(中速)",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "hand_techniques",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "76 和 77 球速的主要区别在于：76 为“中慢速”，飞行速度适中偏慢，适用温度 20-25°C，适合温带地区春秋季；77 为“中速”，飞行速度适中，适用温度 15-20°C，适合温带地区冬季/低温环境。简言之，77 比 76 飞行速度稍快，且适用温度更低。\n\n来源：速度等级 76(中慢速)、速度等级 77(中速)",
+          "passed": true
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "hand_techniques",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "feather_type",
+        "flight_stability",
+        "hand_techniques",
+        "shuttlecock_specs",
+        "speed_grade",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q17",
+      "question": "4U 球拍适合什么样的人",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_grade",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "4U球拍通常适合追求全面均衡打法、希望易上手且力量适中的球友，尤其适合女性和进阶级选手。具体推荐如下：\n- 威克多 VICTOR 驭天玑（4U）：均衡型，适合通用级，追求全面均衡打法的球友。\n- 威克多 VICTOR 神速裂空（4U）：均衡型，适合进阶级，追求全面均衡性能的进阶球友。\n- 尤尼克斯 YONEX 77pro陈雨菲（4U）：综合型，适合通用级，追求均衡、易上手打法的广大球友，尤其适合女性。\n- 李宁 LINING AXFORCE90NEW（4U）：综合型，适合通用级，4U适合全面型打法。\n\n来源：威克多 VICTOR 驭天玑；威克多 VICTOR 神速裂空；尤尼克斯 YONEX 77pro陈雨菲；李宁 LINING AXFORCE90NEW",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_grade",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "4U球拍适合追求均衡打法、易上手、全面型打法的球友，尤其适合女性和追求全面均衡性能的进阶球友。根据检索内容，多款4U球拍均定位为均衡型或综合型，适合通用级或进阶级。例如，威克多驭天玑（4U）适合追求全面均衡打法的球友；威克多神速裂空（4U）适合追求全面均衡性能的进阶球友；尤尼克斯77pro陈雨菲（4U）适合追求均衡、易上手打法的广大球友，尤其适合女性；李宁AXFORCE90NEW（4U）适合全面型打法。\n来源：威克多 VICTOR 驭天玑；威克多 VICTOR 神速裂空；尤尼克斯 YONEX 77pro陈雨菲；李宁 LINING AXFORCE90NEW",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_grade",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "4U球拍通常重量适中，适合追求均衡打法的球友。根据检索内容，4U球拍适合以下人群：\n\n- 追求全面均衡打法的球友，如威克多驭天玑（来源：威克多 VICTOR 驭天玑）；\n- 追求全面均衡性能的进阶球友，如威克多神速裂空（来源：威克多 VICTOR 神速裂空）；\n- 追求均衡、易上手打法的广大球友，尤其适合女性，如尤尼克斯77pro（来源：尤尼克斯 YONEX 77pro陈雨菲）；\n- 适合全面型打法，如李宁AXFORCE90NEW（来源：李宁 LINING AXFORCE90NEW）。\n\n总体而言，4U球拍适合大多数普通及进阶球友，尤其是注重全面性能和易上手的选手。",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "feather_grade",
+        "feather_type",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q18",
+      "question": "推荐一款平衡点靠前(头重)的球拍",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐李宁 LINING 9000i（平衡点327mm，头重）和波力 BONNY 幻影90（平衡点300±5mm，头重）。\n来源：李宁 LINING 9000i；波力 BONNY 幻影90",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐李宁9000i，平衡点327mm，头重感极强，适合追求极致进攻力量的选手；或波力幻影90，平衡点300±5mm，同样为头重进攻型，适合速度进攻型选手。\n\n来源：李宁 LINING 9000i；波力 BONNY 幻影90",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "推荐李宁 LINING 9000i，平衡点327mm，头重（进攻）型，适合追求极致头重感和进攻力量的选手。参考价格：1399元。另一款为波力 BONNY 幻影90，平衡点300±5mm，头重（进攻）型，适合喜欢速度进攻的选手。参考价格：380元。\n来源：李宁 LINING 9000i；来源：波力 BONNY 幻影90",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "feather_type",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q19",
+      "question": "全软木球头和三拼球头哪个好",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "全软木球头和三拼球头各有优劣。全软木球头（天然软木）弹性足、手感清脆扎实、出球速度快，耐打性优秀，但价格高，适合高水平/专业球员和高端比赛。三拼球头打感比全软木稍差，但耐打性较好（比全软木稍高），价格中等，性价比高，适合大多数球员首选。综合性能排序为：天然软木＞三拼＞双拼。因此，追求极致打感和专业性能选全软木，注重性价比和耐打性选三拼。\n\n来源：球头材质 全软木（天然软木）；球头材质 三拼球头；耐打度影响因素",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "三拼球头性价比高，适合大多数球员；全软木球头打感最好，耐用性优秀，价格高，适合专业球员。您可根据需求和预算选择。\n\n来源：球头材质 三拼球头、球头材质 全软木(天然软木)",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "全软木球头在打感、弹性和耐打性方面优于三拼球头，但价格更高，通常用于高端比赛和专业球员；三拼球头性价比高，适合大多数球员（来源：球头材质 全软木(天然软木)；球头材质 三拼球头；耐打度影响因素）。",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "feather_grade",
+        "feather_type",
+        "flight_stability",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q20",
+      "question": "一级毛片长什么样",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs"
+          ],
+          "answer": "一级毛片是最高等级的毛片，外观上毛片笔直、粗细一致、无明显瑕疵，毛片完整、粗细均匀、弯曲度小，主要用于高端比赛或专业训练用球。（来源：毛片等级 一级）",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs"
+          ],
+          "answer": "一级毛片是最高等级的毛片，外观上毛片完整、笔直、粗细均匀、弯曲度小，无明显瑕疵，耐打性优秀，适用于高端比赛或专业训练用球。\n\n来源：毛片等级 一级",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs"
+          ],
+          "answer": "一级毛片为最高等级毛片，毛片完整、粗细均匀、弯曲度小，外观笔直、粗细一致、无明显瑕疵，耐打性优秀，适用场景为高端比赛或专业训练用球。来源：毛片等级 一级",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "durability_factors",
+        "feather_grade",
+        "feather_type",
+        "flight_stability",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q21",
+      "question": "夏天应该选什么速度的羽毛球",
+      "repeat": 3,
+      "try_passed": 0,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "夏天通常指25°C以上，应选择适合高温的球速，即77。根据检索内容，向羽402和威克多MASTER NO.6均提供77球速，适合25°C以上。向羽E300和川崎银河8号未提供77球速，不适合夏季高温。来源：向羽 向羽402；威克多 VICTOR MASTER NO.6",
+          "passed": false
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "根据检索内容，夏天（25°C以上）适合选择球速为77的羽毛球，如向羽402和威克多MASTER NO.6。来源：向羽 向羽402；威克多 VICTOR MASTER NO.6",
+          "passed": false
+        },
+        {
+          "fallback_ok": false,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "grip_specs",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "speed_grade",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q22",
+      "question": "发球过高会怎样",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "发球过高属于发球违例，判罚结果为对方得分。根据2018年新规则，发球时击球点不得超过1.15米高度限制，超过即判违例。\n\n来源：常见判罚 发球过高；BWF官方规则 发球规则",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "发球过高会被判发球违例，对方得分。根据2018年新规则，发球时击球点不得超过1.15m高度（原为过腰规则），否则判罚发球违例，对方得分。\n\n来源：常见判罚 发球过高；BWF官方规则 发球规则",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "发球过高会判发球违例，对方得分。具体指发球时击球点超过1.15m高度限制（2018年新规则），由发球裁判和1.15m标尺判定。来源：常见判罚 发球过高；BWF官方规则 发球规则。",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "feather_type",
+        "footwork_techniques",
+        "hand_techniques",
+        "shuttlecock_specs",
+        "speed_grade",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q23",
+      "question": "正手握拍的动作要领",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "tactics"
+          ],
+          "answer": "正手握拍的动作要领：虎口对着拍柄窄面的小棱边，拇指和食指贴在拍柄两个宽面上，食指和中指稍分开，中指无名指小指并拢握住拍柄，掌心留有空隙，拍面基本与地面垂直。常见错误包括握拍过紧导致手腕僵硬、握拍过松导致拍面控制不稳、掌心紧贴拍柄无法发挥手指发力。训练方法有空挥拍练习、对墙击球练习、多球定点正手击球。来源：手法技术 握拍基础",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "tactics"
+          ],
+          "answer": "正手握拍动作要领：虎口对着拍柄窄面的小棱边，拇指和食指贴在拍柄两个宽面上，食指和中指稍分开，中指无名指小指并拢握住拍柄，掌心留有空隙，拍面基本与地面垂直。常见错误：握拍过紧导致手腕僵硬无法灵活发力；握拍过松导致拍面控制不稳；掌心紧贴拍柄无法发挥手指发力。训练方法：空挥拍练习感受握拍感觉；对墙击球练习正手基本动作；多球定点正手击球。\n\n来源：手法技术 握拍基础",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "tactics"
+          ],
+          "answer": "正手握拍动作要领：虎口对着拍柄窄面的小棱边，拇指和食指贴在拍柄两个宽面上，食指和中指稍分开，中指无名指小指并拢握住拍柄，掌心留有空隙，拍面基本与地面垂直。常见错误：握拍过紧导致手腕僵硬无法灵活发力；握拍过松导致拍面控制不稳；掌心紧贴拍柄无法发挥手指发力。训练方法：空挥拍练习感受握拍感觉；对墙击球练习正手基本动作；多球定点正手击球。\\n来源：手法技术 握拍基础",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q24",
+      "question": "启动步是什么",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "common_penalties",
+            "flight_stability",
+            "footwork_techniques",
+            "shoe_specs",
+            "tactics"
+          ],
+          "answer": "启动步是羽毛球步法的基础，指在对手击球瞬间，通过小跳或垫步实现快速启动，是所有步法的前提。动作要领：对手击球前保持膝盖微屈、重心前倾的准备姿势；对手击球瞬间，双脚同时轻微跳起或小垫步，利用反作用力向目标方向蹬地启动。常见错误包括启动过早、过晚或重心过高。训练方法有多球训练和影子步法。来源：步法技术 步法基础",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "common_penalties",
+            "flight_stability",
+            "footwork_techniques",
+            "shoe_specs",
+            "tactics"
+          ],
+          "answer": "启动步是羽毛球步法的基础，指在对手击球瞬间，通过小跳或垫步实现快速启动，是所有步法的前提。动作要领：对手击球前保持膝盖微屈、重心前倾的准备姿势；对手击球瞬间，双脚同时轻微跳起或小垫步，利用反作用力向目标方向蹬地启动。常见错误：启动过早（被假动作欺骗）、启动过晚（失去先机）、重心过高（无法快速蹬地）。训练方法：多球训练（教练/发球机连续喂球，练习者每次必须完成启动步后才能移动击球）、影子步法（无球状态下模拟启动-移动-回位循环）。来源：步法技术 步法基础",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "common_penalties",
+            "flight_stability",
+            "footwork_techniques",
+            "shoe_specs",
+            "tactics"
+          ],
+          "answer": "启动步是在对手击球瞬间，通过小跳或垫步实现快速启动的步法，是所有步法的前提。动作要领是：对手击球前保持膝盖微屈、重心前倾的准备姿势；对手击球瞬间，双脚同时轻微跳起或小垫步，利用反作用力向目标方向蹬地启动。常见错误包括启动过早被假动作欺骗、启动过晚失去先机、重心过高无法快速蹬地。训练方法有多球训练和影子步法。\n\n来源：步法技术 步法基础",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "common_penalties",
+        "flight_stability",
+        "footwork_techniques",
+        "shoe_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q25",
+      "question": "四方球战术怎么打",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "四方球战术（单打）的打法是：运用高远球和吊球将球打到对方场地四个角（前后左右），调动对手大范围跑动，创造进攻机会。适用场景为单打比赛，对手移动能力一般或步法不灵活时。战术要点包括：高远球和吊球动作要一致，增加隐蔽性；落点要深，尽量打到底线附近；配合杀球和放网，让对手无法预判（来源：战术 单打）",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "四方球战术（单打）是指运用高远球和吊球将球打到对方场地四个角（前后左右），调动对手大范围跑动，创造进攻机会。适用场景是单打比赛，对手移动能力一般或步法不灵活时。战术要点包括：高远球和吊球动作要一致，增加隐蔽性；落点要深，尽量打到底线附近；配合杀球和放网，让对手无法预判。来源：战术 单打",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "四方球战术（单打）的运用方法是：通过高远球和吊球将球打到对方场地四个角（前后左右），调动对手大范围跑动，创造进攻机会。适用场景为单打比赛，对手移动能力一般或步法不灵活时。战术要点包括：高远球和吊球动作要一致，增加隐蔽性；落点要深，尽量打到底线附近；配合杀球和放网，让对手无法预判。\n来源：战术 单打",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "durability_factors",
+        "feather_type",
+        "flight_stability",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q26",
+      "question": "什么因素影响球的飞行稳定性",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "影响球的飞行稳定性的因素包括：球的重量均匀分布（重量均匀分布的球飞行更稳定）、重心位置（重心靠前的球飞行更稳定，不易翻滚）、毛片对称性（对称性越高飞行越稳定，左手毛优先级高于右手毛可大幅增加飞行稳定）以及毛片厚度（厚毛片耐打性好但飞行稳定性可能降低）。\n\n来源：飞行稳定性影响因素；飞行稳定性影响因素；飞行稳定性影响因素；耐打度影响因素",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "影响球的飞行稳定性的因素包括：重量均匀分布、重心位置靠前、毛片对称性高（左手毛优先级高于右手毛可大幅增加飞行稳定）、毛片厚度（厚毛片耐打性好但可能降低飞行稳定性）。\n\n来源：飞行稳定性影响因素",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_type",
+            "flight_stability",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "影响球的飞行稳定性的因素包括重量、重心、毛片对称性和毛片厚度。重量均匀分布的球飞行更稳定；重心靠前的球飞行更稳定，不易翻滚；四片羽毛的对称性越高飞行越稳定，左手毛优先级高于右手毛可大幅增加飞行稳定；厚毛片耐打性好但飞行稳定性可能降低。\\n来源：飞行稳定性影响因素\\n来源：耐打度影响因素",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "feather_type",
+        "flight_stability",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "speed_grade",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q27",
+      "question": "哪些因素影响羽毛球耐打度",
+      "repeat": 3,
+      "try_passed": 0,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "影响羽毛球耐打度的因素包括：使用方式（击球力度和击球点准确性，甜区击球可延长寿命）、毛片弯曲度（弯曲度越小越耐打，鹅毛比鸭毛更直更耐打，拉直处理会降低耐打性）、毛片厚度（越厚越耐打，但可能影响飞行稳定性）以及环境湿度（高湿度毛片变软炸毛，低湿度变脆易断，需根据地区选择合适球型）。此外，鸭小方毛片耐打性极强，但飞行稳定性一般。\n\n来源：耐打度影响因素；毛片类型 鸭小方",
+          "passed": false
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "影响羽毛球耐打度的因素包括：\n1. 使用方式：击球力度和击球点准确性影响耐打性，甜区击球可延长使用寿命。\n2. 毛片弯曲度：弯曲度越小（越直）的毛片耐打性越好，鹅毛比鸭毛更直更耐打，拉直处理的毛片耐打性下降。\n3. 毛片厚度：毛片越厚越耐打，但可能影响飞行稳定性。\n4. 环境湿度：高湿度下毛片易变软炸毛，低湿度下变脆易断，需根据地区选择合适球型。\n5. 毛片类型：如鸭小方耐打度极强，但飞行稳定性一般。\n\n来源：耐打度影响因素；毛片类型 鸭小方",
+          "passed": false
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": false,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs"
+          ],
+          "answer": "影响羽毛球耐打度的因素包括：1. 使用方式，击球力度和击球点准确性，甜区击球可延长使用寿命；2. 毛片弯曲度，越直越耐打，鹅毛比鸭毛更直，拉直处理会降低耐打性；3. 毛片厚度，越厚越耐打但可能影响飞行稳定性；4. 环境湿度，高湿易变软炸毛，低湿易变脆，需根据地区选择球种。来源：耐打度影响因素、毛片类型 鸭小方",
+          "passed": false
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "feather_grade",
+        "feather_type",
+        "grip_specs",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q28",
+      "question": "鹅刀翎和鹅单边毛片哪个更适合比赛",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "鹅刀翎更适合比赛。鹅刀翎是鹅毛中最高级毛片，飞行稳定性和耐打性俱佳，是国际比赛/高级比赛首选（如As40/As50）；而鹅单边飞行性能较差，主要用作耐打型训练用球。来源：鹅刀翎(鹅全圆)、鹅单边",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "比赛用球应优先选择飞行稳定性和耐打性俱佳的毛片。鹅刀翎（鹅全圆）是国际比赛/高级比赛首选，飞行稳定性优秀（最高），耐打性优秀（来源：鹅翅膀最优质毛片）。而鹅单边飞行性能较差，仅适用于耐打型训练用球。因此，鹅刀翎更适合比赛（来源：毛片类型 鹅刀翎(鹅全圆)；毛片类型 鹅单边）",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "cork_material",
+            "durability_factors",
+            "feather_grade",
+            "feather_type",
+            "flight_stability",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "speed_grade",
+            "tactics"
+          ],
+          "answer": "鹅刀翎更适合比赛。因为鹅刀翎的飞行稳定性为优秀（最高），是国际比赛/高级比赛首选毛片（如As40/As50）；而鹅单边飞行性能较差，主要用于耐打型训练用球。\n\n来源：毛片类型 鹅刀翎(鹅全圆)；毛片类型 鹅单边",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "cork_material",
+        "durability_factors",
+        "feather_grade",
+        "feather_type",
+        "flight_stability",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "speed_grade",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q29",
+      "question": "双打比赛发球应该发到哪里",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "根据BWF官方规则，双打比赛中发球须发到斜对角的双打发球区内，前发球线距网1.98m，后发球线为双打后发球线（距底线0.72m）。发球方分数为奇数时在左半场发球，偶数时在右半场发球；发球方得分时交换左右站位（发球人不换）。\n\n来源：BWF官方规则 发球区域；BWF官方规则 发球规则；BWF官方规则 双打规则",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "双打比赛发球须发到斜对角的发球区内，前发球线距网1.98m，后发球线为双打后发球线（距底线0.72m）。发球方分数为奇数时在左半场发球，偶数时在右半场发球；只有发球方得分时才交换左右站位。\n\n来源：BWF官方规则 发球区域；BWF官方规则 发球规则",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "cork_material",
+            "feather_type",
+            "footwork_techniques",
+            "hand_techniques",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "tactics"
+          ],
+          "answer": "双打比赛发球应发到斜对角的发球区内，前发球线距网1.98m，后发球线为双打后发球线（距底线0.72m）。发球时，发球方分数为奇数时在左半场发球，偶数时在右半场发球。发球战术上，应结合网前球和后场球的变化，争取主动。\n\n来源：BWF官方规则 发球区域；BWF官方规则 发球规则；战术 单打/双打",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "cork_material",
+        "feather_type",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q30",
+      "question": "羽毛球拍什么牌子最好（无依据）",
+      "repeat": 3,
+      "try_passed": 3,
+      "per_try": [
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        },
+        {
+          "fallback_ok": true,
+          "collections_ok": true,
+          "keywords_ok": true,
+          "hit_collections": [
+            "bwf_rules",
+            "common_penalties",
+            "feather_type",
+            "grip_specs",
+            "racket_specs",
+            "shoe_specs",
+            "shuttlecock_specs",
+            "string_specs",
+            "tactics"
+          ],
+          "answer": "知识库中暂无相关信息",
+          "passed": true
+        }
+      ],
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "feather_type",
+        "grip_specs",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": true
+    }
+  ]
+}

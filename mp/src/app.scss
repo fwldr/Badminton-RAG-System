@@ -1,0 +1,14 @@
+/* 全局样式：主题变量 + 基础重置（rpx 设计稿 750） */
+
+@import './styles/theme.scss';
+
+page {
+  background: $bg;
+  color: $ink;
+  font-size: 30rpx;
+  font-family: 'PingFang SC', 'HarmonyOS Sans SC', 'MiSans', 'Microsoft YaHei', sans-serif;
+}
+
+view, text, input, textarea, button {
+  box-sizing: border-box;
+}

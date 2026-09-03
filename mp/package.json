@@ -1,0 +1,56 @@
+{
+  "name": "badminton-rag-mp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "羽问 · 羽毛球知识问答小程序（Taro 4 + React + TS + Sass）",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "Sass",
+    "framework": "React"
+  },
+  "scripts": {
+    "new": "taro new",
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "build:h5": "taro build --type h5",
+    "dev:h5": "npm run build:h5 -- --watch"
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ],
+  "author": "",
+  "dependencies": {
+    "@babel/runtime": "^7.24.4",
+    "@tarojs/components": "4.1.8",
+    "@tarojs/helper": "4.1.8",
+    "@tarojs/plugin-framework-react": "4.1.8",
+    "@tarojs/plugin-platform-weapp": "4.1.8",
+    "@tarojs/react": "4.1.8",
+    "@tarojs/runtime": "4.1.8",
+    "@tarojs/shared": "4.1.8",
+    "@tarojs/taro": "4.1.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/plugin-transform-class-properties": "7.25.9",
+    "@babel/preset-react": "^7.24.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@tarojs/cli": "4.1.8",
+    "@tarojs/taro-loader": "4.1.8",
+    "@tarojs/webpack5-runner": "4.1.8",
+    "@types/node": "^18",
+    "@types/react": "^18.0.0",
+    "babel-preset-taro": "4.1.8",
+    "postcss": "^8.4.38",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.75.0",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^5.4.5",
+    "webpack": "5.91.0"
+  }
+}

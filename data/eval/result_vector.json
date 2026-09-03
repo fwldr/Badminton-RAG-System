@@ -1,0 +1,191 @@
+{
+  "mode": "offline+vector",
+  "generated_at": "2026-08-20T22:55:57",
+  "total": 12,
+  "passed": 7,
+  "pass_rate": 0.5833,
+  "results": [
+    {
+      "id": "q01",
+      "question": "4U和5U球拍有什么区别",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "common_penalties",
+        "grip_specs",
+        "hand_techniques",
+        "racket_specs",
+        "shoe_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q02",
+      "question": "推荐一款适合初学者的球拍",
+      "fallback_ok": false,
+      "collections_ok": false,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "footwork_techniques",
+        "hand_techniques",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q03",
+      "question": "平衡点超过300的进攻型球拍有哪些",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "shuttlecock_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q04",
+      "question": "最高磅数不低于28磅的球拍推荐",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "flight_stability",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q05",
+      "question": "推荐一款YONEX的进攻型球拍",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "common_penalties",
+        "footwork_techniques",
+        "hand_techniques",
+        "racket_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q06",
+      "question": "鹅毛和鸭毛羽毛球哪个更耐打",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "feather_grade",
+        "feather_type",
+        "flight_stability",
+        "shuttlecock_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q07",
+      "question": "单打和双打的场地边界有什么区别",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "feather_type",
+        "grip_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q08",
+      "question": "发球时击球点高度有什么限制",
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "footwork_techniques",
+        "hand_techniques",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q09",
+      "question": "拉吊突击战术怎么打",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "grip_specs",
+        "racket_specs",
+        "string_specs",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q10",
+      "question": "推荐一款红色的手胶",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "footwork_techniques",
+        "grip_specs",
+        "hand_techniques",
+        "racket_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q11",
+      "question": "哪款球鞋适合初学者",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "footwork_techniques",
+        "hand_techniques",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q12",
+      "question": "今天天气如何",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "durability_factors",
+        "feather_grade",
+        "shoe_specs",
+        "speed_grade",
+        "string_specs"
+      ],
+      "passed": true
+    }
+  ]
+}

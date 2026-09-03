@@ -1,0 +1,56 @@
+/* 我的纠错：提交表单（订阅消息授权时机）+ 记录列表（状态徽标） */
+
+@import '../../styles/theme.scss';
+
+.page { min-height: 100vh; background: $bg; padding: 24rpx 32rpx 60rpx; }
+
+.card {
+  background: #fff;
+  border-radius: 40rpx;
+  padding: 28rpx;
+  margin-bottom: 24rpx;
+  box-shadow: $shadow;
+}
+.field-label { font-size: 24rpx; color: $ink-2; font-weight: 700; margin: 14rpx 0 10rpx; }
+.field-label:first-child { margin-top: 0; }
+.input, .textarea {
+  width: 100%;
+  background: $bg;
+  border-radius: 20rpx;
+  padding: 16rpx 22rpx;
+  font-size: 25rpx;
+  min-height: 64rpx;
+}
+.textarea { min-height: 140rpx; line-height: 1.7; }
+
+.submit {
+  height: 92rpx;
+  border-radius: 46rpx;
+  background: $grad-brand;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20rpx 44rpx rgba(4, 95, 70, 0.3);
+}
+.submit.disabled { opacity: 0.5; }
+
+.st {
+  font-size: 20rpx;
+  border-radius: 999rpx;
+  padding: 4rpx 16rpx;
+  font-weight: 700;
+}
+.st.pending { background: $amber-soft; color: $amber-deep; }
+.st.accepted { background: $g-100; color: $g-700; }
+.st.rejected { background: #fde8e8; color: #dc2626; }
+.st.discussion { background: #e0e7ff; color: #4f46e5; }
+
+.corr { margin-bottom: 16rpx; }
+.corr .q { font-size: 25rpx; font-weight: 700; display: flex; align-items: center; gap: 12rpx; flex-wrap: wrap; }
+.corr .a { margin-top: 8rpx; font-size: 23rpx; color: $ink-2; line-height: 1.7; }
+.corr .tm { margin-top: 8rpx; font-size: 20rpx; color: $ink-3; }
+
+.state { text-align: center; padding: 80rpx 0; color: $ink-3; font-size: 26rpx; }

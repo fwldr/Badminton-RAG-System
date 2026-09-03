@@ -1,0 +1,15 @@
+# 构建上下文排除：密钥、虚拟环境、运行产物、文档
+.venv/
+data/chroma/
+data/app.db
+logs/
+.env
+.git/
+.gitignore
+.idea/
+.pytest_cache/
+__pycache__/
+*.pyc
+node_modules/
+web/node_modules/
+*.md

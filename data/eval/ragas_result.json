@@ -1,0 +1,313 @@
+{
+  "mode": "online",
+  "generated_at": "2026-08-21T23:47:02",
+  "total": 30,
+  "average": {
+    "faithfulness": 0.7044,
+    "answer_relevancy": 0.6983,
+    "context_precision": 0.2459,
+    "context_recall": 0.5881
+  },
+  "results": [
+    {
+      "id": "q01",
+      "question": "4U和5U球拍有什么区别",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0556,
+      "context_recall": 0.0
+    },
+    {
+      "id": "q02",
+      "question": "推荐一款适合初学者的球拍",
+      "answer": "推荐以下几款适合初学者的球拍：\n1. 尤尼克斯 YONEX 锐速D11：重量3U，中杆适中，拉线磅数19-24LBS，灵活型，适合入门级。\n2. 川崎 KAWASAKI 大师600：拍柄G1，中杆适中，拉线磅数18-30LBS，均衡型，适合入门级或女性球友。\n3. 威克多 VICTOR 神速50J：重量4U，中杆适中，拉线磅数≤27LBS，灵活型，适合力量较小、追求易上手打感的入门及女性球友，参考价格334元。\n4. 川崎 KAWASAKI AURORQ7：重量5U，中杆偏软，拉线磅数18-30LBS，头重进攻型，适合力量较小、喜欢轻量打感的入门级球友，参考价格177元。\n\n来源：尤尼克斯 YONEX 锐速D11；川崎 KAWASAKI 大师600；威克多 VICTOR 神速50J；川崎 KAWASAKI AURORQ7",
+      "num_contexts": 18,
+      "faithfulness": 0.8333,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.2222,
+      "context_recall": 0.0
+    },
+    {
+      "id": "q03",
+      "question": "平衡点超过300的进攻型球拍有哪些",
+      "answer": "根据知识库，平衡点超过300的进攻型球拍有：\n1. 波力 BONNY 幻影90：平衡点300±5mm，头重（进攻），适合进阶级选手，参考价格380元。\n2. 波力 BONNY 玄武：平衡点300±5mm，均衡，但标注进攻型，适合进阶级选手，参考价格406元。\n3. 威臣 VS 白游龙：平衡点305±3mm，头重（进攻），适合通用级选手，参考价格314元。\n4. 尤尼克斯 YONEX 天斧100ZZ：平衡点305mm，头重（进攻），适合专业级选手，参考价格1476元。\n\n来源：波力 BONNY 幻影90；波力 BONNY 玄武；威臣 VS 白游龙；尤尼克斯 YONEX 天斧100ZZ",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.2222,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q04",
+      "question": "最高磅数不低于28磅的球拍推荐",
+      "answer": "根据知识库，以下球拍最高磅数不低于28磅：\n1. 尤尼克斯 疾光1000PALY，拉线磅数20-28LBS，参考价格1765元；\n2. 尤尼克斯 77pro陈雨菲，拉线磅数20-28LBS，参考价格1238元；\n3. 威克多 神速8000，拉线磅数≤30LBS，参考价格275元；\n4. 尤尼克斯 ARCLT5I，拉线磅数20-28LBS，参考价格443元。\n\n来源：尤尼克斯 YONEX 疾光1000PALY；尤尼克斯 YONEX 77pro陈雨菲；威克多 VICTOR 神速8000；尤尼克斯 YONEX ARCLT5I",
+      "num_contexts": 18,
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.2222,
+      "context_recall": 0.25
+    },
+    {
+      "id": "q05",
+      "question": "推荐一款YONEX的进攻型球拍",
+      "answer": "推荐YONEX进攻型球拍：1. 天斧88dpro新色，适合后场进攻型打法，价格1476元；2. 天斧88DTOUR新色，适合进阶选手，价格653元；3. VT-FLCW，适合喜欢头重进攻打法的女性球友。\n来源：尤尼克斯 YONEX 天斧88dpro新色；尤尼克斯 YONEX 天斧88DTOUR新色；尤尼克斯 YONEX VT-FLCW",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9,
+      "context_precision": 0.1667,
+      "context_recall": 0.25
+    },
+    {
+      "id": "q06",
+      "question": "鹅毛和鸭毛羽毛球哪个更耐打",
+      "answer": "鹅毛比鸭毛更耐打。鹅毛毛片更直，弯曲度更小，耐打性更好；而鸭毛中耐打性排序为驼背＞小方＞中方＞大方＞全圆，且鸭单边耐打性优秀但飞行性能较差。\n\n来源：耐打度影响因素；毛片类型 鸭中方；毛片类型 鸭单边",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.4444,
+      "context_recall": 0.6667
+    },
+    {
+      "id": "q07",
+      "question": "单打和双打的场地边界有什么区别",
+      "answer": "单打和双打场地边界的主要区别在于边线和底线的使用。单打使用外侧边线和底线，发球时发到斜对角单打发球区；双打使用内侧边线和底线（发球时）或外侧边线和底线（对打中），且双打后发球线比单打靠前0.72米。来源：BWF官方规则 单打规则；BWF官方规则 双打规则",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9,
+      "context_precision": 0.1667,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q08",
+      "question": "发球时击球点高度有什么限制",
+      "answer": "发球时击球点不得超过1.15m（2018年起由过腰改为1.15m标尺判定），违反则发球违例，对方得分。\n\n来源：BWF官方规则 发球规则；常见判罚 发球过高",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9,
+      "context_precision": 0.1667,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q09",
+      "question": "拉吊突击战术怎么打",
+      "answer": "拉吊突击战术的打法是：先通过高远球和吊球控制对方后场，待对方回球质量不高时，抓住机会快速突击杀球得分。适用场景为单打比赛，自身进攻能力较强但体能有限时。战术要点包括：拉吊阶段要有耐心，不急于进攻；突击时机要准确（对方回球半场高球时）；突击后要有连续进攻的准备。来源：战术 单打",
+      "num_contexts": 18,
+      "faithfulness": 0.75,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.3889,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q10",
+      "question": "推荐一款红色的手胶",
+      "answer": "推荐李宁 LINING GP203 手胶，颜色中包含红色。\n\n来源：李宁 LINING GP203",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.1111,
+      "context_recall": 0.6667
+    },
+    {
+      "id": "q11",
+      "question": "哪款球鞋适合初学者",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.2,
+      "context_precision": 0.3333,
+      "context_recall": 0.0
+    },
+    {
+      "id": "q12",
+      "question": "今天天气如何",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 10,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "id": "q13",
+      "question": "推荐一款 YONEX 的球线",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.1111,
+      "context_recall": 0.0
+    },
+    {
+      "id": "q14",
+      "question": "李宁有什么羽毛球鞋",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2222,
+      "context_recall": 0.6667
+    },
+    {
+      "id": "q15",
+      "question": "推荐一款耐打的羽毛球",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.3889,
+      "context_recall": 0.0
+    },
+    {
+      "id": "q16",
+      "question": "76 和 77 球速有什么区别",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.2,
+      "context_precision": 0.4444,
+      "context_recall": 0.6667
+    },
+    {
+      "id": "q17",
+      "question": "4U 球拍适合什么样的人",
+      "answer": "4U球拍重量适中，适合追求全面均衡打法的球友，尤其适合女性。例如威克多驭天玑（4U≤29LBS，均衡型，适合通用级）、威克多神速裂空（4U≤29LBS，均衡型，适合进阶级）、尤尼克斯77pro陈雨菲（4U，综合型，适合通用级，尤其适合女性）、李宁AXFORCE90NEW（4U，综合型，适合全面型打法）。\n\n来源：威克多 VICTOR 驭天玑；威克多 VICTOR 神速裂空；尤尼克斯 YONEX 77pro陈雨菲；李宁 LINING AXFORCE90NEW",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.95,
+      "context_precision": 0.2222,
+      "context_recall": 0.3333
+    },
+    {
+      "id": "q18",
+      "question": "推荐一款平衡点靠前(头重)的球拍",
+      "answer": "推荐两款头重(进攻)型球拍：李宁9000i（平衡点327mm，5U，中杆偏软，适合追求极致头重感和进攻力量的选手，参考价1399元）；波力幻影90（平衡点300±5mm，4U，中杆适中，适合喜欢速度进攻、追求一拍定音的进攻型选手，参考价380元）。来源：李宁 LINING 9000i；波力 BONNY 幻影90",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.1111,
+      "context_recall": 0.0
+    },
+    {
+      "id": "q19",
+      "question": "全软木球头和三拼球头哪个好",
+      "answer": "全软木球头和三拼球头各有优劣。全软木（天然软木）打感最佳，弹性足、手感清脆扎实、出球速度快，耐打性优秀，但价格高，适合高水平/专业球员和高端比赛。三拼球头打感稍差，但耐打性较好，价格中等，性价比高，是大多数球员首选。综合性能排序为全软木＞三拼＞双拼，因此若追求极致打感和性能，选全软木；若注重性价比，选三拼。\\n来源：球头材质 全软木(天然软木)；球头材质 三拼球头；耐打度影响因素",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.2778,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q20",
+      "question": "一级毛片长什么样",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.1,
+      "context_precision": 0.3333,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q21",
+      "question": "夏天应该选什么速度的羽毛球",
+      "answer": "夏季（25°C以上）应选择球速77的羽毛球，如向羽402（来源：向羽 向羽402）和威克多 VICTOR MASTER NO.6（来源：威克多 VICTOR MASTER NO.6）。",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.95,
+      "context_precision": 0.3333,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q22",
+      "question": "发球过高会怎样",
+      "answer": "发球过高属于发球违例，判罚结果为对方得分。根据2018年新规则，发球时击球点不得超过1.15m高度限制，若超过即判违例（来源：常见判罚 发球过高；BWF官方规则 发球规则）。",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.3889,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q23",
+      "question": "正手握拍的动作要领",
+      "answer": "动作要领：虎口对着拍柄窄面的小棱边，拇指和食指贴在拍柄两个宽面上，食指和中指稍分开，中指无名指小指并拢握住拍柄，掌心留有空隙，拍面基本与地面垂直。常见错误：握拍过紧导致手腕僵硬无法灵活发力；握拍过松导致拍面控制不稳；掌心紧贴拍柄无法发挥手指发力。训练方法：空挥拍练习感受握拍感觉；对墙击球练习正手基本动作；多球定点正手击球。来源：手法技术 握拍基础",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.1111,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q24",
+      "question": "启动步是什么",
+      "answer": "启动步是在对手击球瞬间，通过小跳或垫步实现快速启动，是所有步法的前提。动作要领：对手击球前保持膝盖微屈、重心前倾的准备姿势；对手击球瞬间，双脚同时轻微跳起或小垫步，利用反作用力向目标方向蹬地启动。常见错误：启动过早（对手未击球就移动）导致被假动作欺骗；启动过晚（反应慢）失去先机；重心过高无法快速蹬地。训练方法：多球训练：教练/发球机连续喂球，练习者每次必须完成启动步后才能移动击球；影子步法：无球状态下模拟启动-移动-回位循环（来源：步法技术 步法基础）",
+      "num_contexts": 10,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.95,
+      "context_precision": 0.1,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q25",
+      "question": "四方球战术怎么打",
+      "answer": "四方球战术（单打）运用高远球和吊球将球打到对方场地四个角（前后左右），调动对手大范围跑动，创造进攻机会。适用场景为单打比赛，对手移动能力一般或步法不灵活时。战术要点包括：高远球和吊球动作要一致，增加隐蔽性；落点要深，尽量打到底线附近；配合杀球和放网，让对手无法预判。\n\n来源：战术 单打",
+      "num_contexts": 18,
+      "faithfulness": 0.75,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.0556,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q26",
+      "question": "什么因素影响球的飞行稳定性",
+      "answer": "影响球的飞行稳定性的因素包括：球的重量（重量均匀分布的球飞行更稳定）、重心位置（重心靠前的球飞行更稳定，不易翻滚）、毛片对称性（对称性越高飞行越稳定，左手毛优先级高于右手毛可大幅增加飞行稳定）、毛片厚度（厚毛片耐打性好但飞行稳定性可能降低）。此外，使用方式（如击球力度、击球点准确性）主要影响耐打性，而非直接决定飞行稳定性。\n\n来源：飞行稳定性影响因素；来源：耐打度影响因素",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9,
+      "context_precision": 0.4444,
+      "context_recall": 0.5714
+    },
+    {
+      "id": "q27",
+      "question": "哪些因素影响羽毛球耐打度",
+      "answer": "影响羽毛球耐打度的因素包括：\n1. 使用方式：击球力度、击球点准确性影响耐打性，甜区击球可延长使用寿命；\n2. 毛片弯曲度：弯曲度越小（越直）的毛片耐打性越好，鹅毛比鸭毛更耐打，拉直处理会降低耐打性；\n3. 毛片厚度：毛片越厚越耐打，但可能影响飞行稳定性；\n4. 环境湿度：高湿度易使毛片变软炸毛，低湿度易使毛片变脆易断，需根据地区选择合适的球；\n5. 毛片类型：如鸭小方耐打度极强，但手感一般。\n来源：耐打度影响因素；毛片类型 鸭小方",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.5,
+      "context_recall": 0.5714
+    },
+    {
+      "id": "q28",
+      "question": "鹅刀翎和鹅单边毛片哪个更适合比赛",
+      "answer": "鹅刀翎更适合比赛。鹅刀翎是鹅毛中最高级毛片，飞行稳定性优秀（最高），耐打性优秀，是国际比赛/高级比赛首选用球（如As40/As50）；而鹅单边飞行性能较差，耐打性很强，主要适用场景为耐打型训练用球。\n来源：毛片类型 鹅刀翎(鹅全圆)；毛片类型 鹅单边",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.5,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q29",
+      "question": "双打比赛发球应该发到哪里",
+      "answer": "双打比赛发球应发到斜对角的发球区内，前发球线距网1.98m，后发球线为双打后发球线（距底线0.72m）。发球时根据发球方分数决定左右半场：奇分数在左半场发球，偶数分数在右半场发球。此外，发球战术建议结合网前球和后场球变化，发球后需有预判和后续套路。\n\n来源：BWF官方规则 发球区域；BWF官方规则 发球规则；战术 单打/双打",
+      "num_contexts": 18,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 0.0556,
+      "context_recall": 1.0
+    },
+    {
+      "id": "q30",
+      "question": "羽毛球拍什么牌子最好（无依据）",
+      "answer": "知识库中暂无相关信息",
+      "num_contexts": 18,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.2778,
+      "context_recall": 0.0
+    }
+  ]
+}

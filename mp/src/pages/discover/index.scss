@@ -1,0 +1,100 @@
+/* 发现：知识库目录 + 热门问答（对应原型 discover.html） */
+
+@import '../../styles/theme.scss';
+
+.page { min-height: 100vh; background: $bg; padding: 24rpx 32rpx; }
+
+.sec-hd {
+  display: flex;
+  align-items: baseline;
+  margin: 28rpx 4rpx 18rpx;
+}
+.sec-hd .t { font-size: 34rpx; font-weight: 800; }
+.sec-hd .more { margin-left: auto; font-size: 22rpx; color: $ink-3; }
+
+.cat {
+  background: #fff;
+  border-radius: 40rpx;
+  padding: 28rpx;
+  margin-bottom: 20rpx;
+  box-shadow: $shadow;
+}
+.cat .head {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.cat .head .n { margin-left: auto; font-size: 22rpx; color: $g-700; background: $g-100; padding: 4rpx 16rpx; border-radius: 999rpx; }
+.cat .tables { display: flex; flex-wrap: wrap; gap: 12rpx; margin-top: 16rpx; }
+.cat .tbl { font-size: 22rpx; color: $ink-3; background: $bg; padding: 8rpx 18rpx; border-radius: 12rpx; }
+
+.hot {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  background: #fff;
+  border-radius: 30rpx;
+  padding: 22rpx 24rpx;
+  margin-bottom: 16rpx;
+  box-shadow: $shadow;
+  font-size: 26rpx;
+}
+.hot .rk { width: 40rpx; text-align: center; font-weight: 900; color: #c8d4ce; }
+.hot .rk.top { color: $amber; }
+.hot .q { flex: 1; }
+.hot .n { font-size: 22rpx; color: $ink-3; }
+
+/* —— 动态流 —— */
+.post-add { font-size: 24rpx; color: $g-700; font-weight: 700; }
+.post {
+  background: #fff;
+  border-radius: 40rpx;
+  padding: 28rpx;
+  margin-bottom: 20rpx;
+  box-shadow: $shadow;
+}
+.post .hd { display: flex; align-items: center; gap: 16rpx; }
+.post .avatar {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  background: $g-100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+.post .avatar-img {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  background: $g-100;
+  flex-shrink: 0;
+}
+.post .who { flex: 1; }
+.post .nn { font-size: 26rpx; font-weight: 700; display: block; }
+.post .tm { font-size: 20rpx; color: $ink-3; }
+.post .tx {
+  display: block;
+  font-size: 26rpx;
+  line-height: 1.75;
+  margin-top: 14rpx;
+}
+.post .imgs { display: flex; gap: 12rpx; margin-top: 16rpx; }
+.post .imgs .im {
+  flex: 1;
+  height: 200rpx;
+  border-radius: 24rpx;
+  overflow: hidden;
+  background: $g-50;
+}
+.post .imgs image { width: 100%; height: 100%; }
+
+.state {
+  text-align: center;
+  padding: 80rpx 0;
+  color: $ink-3;
+  font-size: 26rpx;
+}

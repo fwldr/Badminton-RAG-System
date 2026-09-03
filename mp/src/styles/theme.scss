@@ -1,0 +1,40 @@
+// ============ 羽问·小程序 设计系统 Tokens（750 设计稿，全部 rpx） ============
+// 来源：mp-prototype/assets/prototype.css（375 设计稿 ×2）
+
+// 品牌绿（球场）
+$g-950: #04352a;
+$g-900: #064e3b;
+$g-800: #065f46;
+$g-700: #047857;
+$g-600: #059669;
+$g-500: #10b981;
+$g-400: #34d399;
+$g-200: #a7f3d0;
+$g-100: #d1fae5;
+$g-50: #ecfdf5;
+
+// 琥珀（球羽/点赞/热门）
+$amber: #f59e0b;
+$amber-deep: #d97706;
+$amber-soft: #fef3c7;
+
+// 墨色系
+$ink: #122019;
+$ink-2: #44554b;
+$ink-3: #7c8b82;
+$bg: #f3f6f4;
+$card: #ffffff;
+$line: #e4ede8;
+
+// 阴影
+$shadow: 0 8rpx 24rpx rgba(11, 44, 30, 0.08);
+$shadow-lg: 0 18rpx 44rpx rgba(11, 44, 30, 0.14);
+
+// 圆角
+$r-md: 32rpx;
+$r-lg: 40rpx;
+$r-xl: 48rpx;
+
+// 渐变（复用点）
+$grad-brand: linear-gradient(135deg, $g-600, $g-800);
+$grad-hero: linear-gradient(150deg, #0a6b4e, #054b38);

@@ -1,0 +1,280 @@
+/* 提问首页（W2 完整版）：问候态 / 预设卡 / 范围限定 / 气泡全状态（打字机·缓存·失败重试）/
+   引用来源面板（遵循 pref_show_sources）/ 图片内联与预览 / 赞踩反馈
+   对应设计方案 §4.2 与原型 chat.html */
+
+@import '../../styles/theme.scss';
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: $bg;
+  overflow: hidden;
+}
+
+/* —— 问候态（无消息时） —— */
+.welcome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60rpx 60rpx 40rpx;
+  text-align: center;
+}
+.welcome .hero-avatar {
+  width: 168rpx;
+  height: 168rpx;
+  border-radius: 50%;
+  background: linear-gradient(135deg, $g-400, $g-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 84rpx;
+  box-shadow: 0 24rpx 56rpx rgba(4, 95, 70, 0.24);
+}
+.welcome .hi {
+  margin-top: 34rpx;
+  font-size: 40rpx;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 14rpx;
+}
+.welcome .hi .dot { width: 14rpx; height: 14rpx; border-radius: 50%; background: $g-500; box-shadow: 0 0 0 8rpx $g-100; }
+.welcome .sub {
+  margin-top: 16rpx;
+  font-size: 26rpx;
+  color: $ink-3;
+  line-height: 1.8;
+}
+
+/* —— 预设与范围 —— */
+.preset-strip {
+  display: flex;
+  gap: 14rpx;
+  padding: 20rpx 32rpx 8rpx;
+}
+.chip {
+  flex-shrink: 0;
+  padding: 14rpx 26rpx;
+  border-radius: 999rpx;
+  background: #fff;
+  color: $ink-2;
+  border: 2rpx solid $line;
+  font-size: 25rpx;
+}
+.chip.active { background: $g-700; border-color: $g-700; color: #fff; }
+.chip.amber { background: $amber-soft; border-color: #fde6ad; color: $amber-deep; }
+.cat-row { padding: 10rpx 32rpx; }
+
+/* —— 消息区（scroll-view 滚动容器，输入条固定底部） ——
+   水平留白放在内部 .msg-list 上（微信 scroll-view 对 padding 的支持有怪异，见头像贴边问题） */
+.messages-fill {
+  flex: 1;
+  min-height: 0;
+}
+.msg-list {
+  padding: 16rpx 28rpx 8rpx;
+}
+.msg {
+  display: flex;
+  margin-bottom: 24rpx;
+  align-items: flex-start;
+}
+.msg.user { flex-direction: row-reverse; }
+.avatar {
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34rpx;
+  flex-shrink: 0;
+  background: $g-100;
+  overflow: hidden;
+}
+.avatar.me { background: $grad-brand; color: #fff; }
+.avatar.me .img {
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 50%;
+  display: block;
+}
+.bubble {
+  max-width: 460rpx;
+  border-radius: 40rpx;
+  padding: 24rpx 28rpx;
+  font-size: 28rpx;
+  line-height: 1.7;
+}
+.msg.user .bubble {
+  background: $grad-brand;
+  color: #fff;
+  margin-right: 14rpx;
+  border-top-right-radius: 12rpx;
+  box-shadow: 0 16rpx 40rpx rgba(4, 95, 70, 0.24);
+}
+.msg.assistant .bubble {
+  background: #fff;
+  border: 2rpx solid $line;
+  color: $ink;
+  margin-left: 14rpx;
+  border-top-left-radius: 12rpx;
+  box-shadow: $shadow;
+}
+
+/* —— Markdown 渲染（回答正文） —— */
+.bubble .md-p { display: block; }
+.bubble .md { width: 100%; }
+.bubble .md-h { display: block; font-weight: 800; }
+.bubble .md-h1 { font-size: 32rpx; margin: 18rpx 0 8rpx; }
+.bubble .md-h2 { font-size: 30rpx; margin: 16rpx 0 6rpx; }
+.bubble .md-h3 { font-size: 28rpx; margin: 12rpx 0 6rpx; }
+.bubble .md .b { font-weight: 700; }
+.bubble .md .code {
+  font-family: monospace;
+  background: $g-50;
+  color: $g-800;
+  border-radius: 6rpx;
+  padding: 2rpx 8rpx;
+  font-size: 24rpx;
+}
+.bubble .md .del { text-decoration: line-through; color: $ink-3; }
+.bubble .md-ul { margin: 10rpx 0; }
+.bubble .md-li { display: flex; align-items: flex-start; gap: 10rpx; margin-bottom: 8rpx; }
+.bubble .md-li .bullet { flex-shrink: 0; color: $g-600; }
+.bubble .md-li .txt { flex: 1; }
+.bubble .md-li-ol { display: block; margin-bottom: 8rpx; padding-left: 0; }
+/* 缓存徽标 */
+.cached-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 20rpx;
+  font-weight: 700;
+  color: $g-600;
+  background: $g-50;
+  border-radius: 999rpx;
+  padding: 4rpx 14rpx;
+  margin-bottom: 8rpx;
+}
+/* 失败与重试 */
+.fail-row { display: flex; align-items: center; gap: 16rpx; margin-top: 12rpx; }
+.fail-tip { font-size: 23rpx; color: #dc2626; }
+.retry-btn {
+  font-size: 22rpx;
+  color: $g-700;
+  border: 2rpx solid $g-200;
+  border-radius: 999rpx;
+  padding: 6rpx 22rpx;
+  background: $g-50;
+}
+
+/* 回答图片（内联图集） */
+.msg-images { margin-top: 14rpx; }
+.msg-images .im {
+  margin-top: 10rpx;
+  border-radius: 24rpx;
+  overflow: hidden;
+  background: $g-50;
+}
+.msg-images .im image { width: 100%; display: block; }
+.msg-images .cap {
+  margin-top: 6rpx;
+  font-size: 20rpx;
+  color: $ink-3;
+  text-align: center;
+}
+
+/* 引用来源（遵循偏好可隐藏） */
+.src-hd {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  margin-top: 22rpx;
+  padding-top: 22rpx;
+  border-top: 2rpx dashed $line;
+  font-size: 24rpx;
+  color: $g-700;
+}
+.src-hd .toggle { margin-left: auto; color: $ink-3; font-weight: 400; }
+.src-tbl {
+  margin-top: 14rpx;
+  border: 2rpx solid $line;
+  border-radius: 24rpx;
+  overflow: hidden;
+  font-size: 22rpx;
+}
+.src-tbl .row { display: flex; }
+.src-tbl .row > view { flex: 1; padding: 12rpx 16rpx; }
+.src-tbl .row.hd { background: $g-50; color: $g-800; font-weight: 700; }
+.src-tbl .row:not(.hd) { color: $ink-2; }
+
+/* 操作行 */
+.act-row { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10rpx; margin-top: 18rpx; }
+.act {
+  font-size: 21rpx;
+  color: $ink-3;
+  padding: 8rpx 18rpx;
+  border-radius: 999rpx;
+  background: #f2f6f3;
+}
+.act.on { background: $g-100; color: $g-700; }
+
+/* 思考中 */
+.typing { display: flex; gap: 8rpx; padding: 6rpx 2rpx; }
+.typing .dot {
+  width: 14rpx;
+  height: 14rpx;
+  border-radius: 50%;
+  background: $g-400;
+  animation: blink 1.2s infinite;
+}
+.typing .dot:nth-child(2) { animation-delay: 0.18s; }
+.typing .dot:nth-child(3) { animation-delay: 0.36s; }
+@keyframes blink {
+  0%, 70%, 100% { opacity: 0.3; transform: translateY(0); }
+  35% { opacity: 1; transform: translateY(-6rpx); }
+}
+
+/* —— 输入条 —— */
+.composer {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  margin: 8rpx 28rpx calc(20rpx + env(safe-area-inset-bottom));
+  background: #fff;
+  border: 3rpx solid $line;
+  border-radius: 52rpx;
+  padding: 12rpx 12rpx 12rpx 16rpx;
+  box-shadow: 0 20rpx 60rpx rgba(11, 44, 30, 0.1);
+}
+.composer .input { flex: 1; font-size: 27rpx; min-height: 0; }
+.composer .send {
+  height: 76rpx;
+  padding: 0 40rpx;
+  border-radius: 40rpx;
+  background: $grad-brand;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 12rpx 28rpx rgba(4, 95, 70, 0.3);
+}
+.composer .send.disabled { opacity: 0.5; }
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 220rpx;
+  transform: translateX(-50%);
+  background: rgba(18, 32, 25, 0.88);
+  color: #fff;
+  font-size: 24rpx;
+  padding: 16rpx 32rpx;
+  border-radius: 999rpx;
+  z-index: 99;
+}

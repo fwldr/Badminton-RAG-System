@@ -1,0 +1,175 @@
+{
+  "mode": "online+vector",
+  "generated_at": "2026-08-20T23:53:32",
+  "total": 12,
+  "passed": 7,
+  "pass_rate": 0.5833,
+  "results": [
+    {
+      "id": "q01",
+      "question": "4U和5U球拍有什么区别",
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "cork_material",
+        "durability_factors",
+        "feather_grade",
+        "racket_specs",
+        "shuttlecock_specs"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q02",
+      "question": "推荐一款适合初学者的球拍",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "cork_material",
+        "racket_specs",
+        "shuttlecock_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q03",
+      "question": "平衡点超过300的进攻型球拍有哪些",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "cork_material",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q04",
+      "question": "最高磅数不低于28磅的球拍推荐",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "cork_material",
+        "durability_factors",
+        "racket_specs",
+        "shuttlecock_specs"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q05",
+      "question": "推荐一款YONEX的进攻型球拍",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs",
+        "string_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q06",
+      "question": "鹅毛和鸭毛羽毛球哪个更耐打",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "durability_factors",
+        "feather_type",
+        "flight_stability",
+        "shuttlecock_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q07",
+      "question": "单打和双打的场地边界有什么区别",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q08",
+      "question": "发球时击球点高度有什么限制",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "bwf_rules",
+        "common_penalties",
+        "durability_factors",
+        "hand_techniques",
+        "tactics"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q09",
+      "question": "拉吊突击战术怎么打",
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "hand_techniques",
+        "racket_specs",
+        "tactics"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q10",
+      "question": "推荐一款红色的手胶",
+      "fallback_ok": false,
+      "collections_ok": true,
+      "keywords_ok": false,
+      "hit_collections": [
+        "grip_specs",
+        "racket_specs",
+        "shuttlecock_specs"
+      ],
+      "passed": false
+    },
+    {
+      "id": "q11",
+      "question": "哪款球鞋适合初学者",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "cork_material",
+        "racket_specs",
+        "shoe_specs",
+        "shuttlecock_specs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "q12",
+      "question": "今天天气如何",
+      "fallback_ok": true,
+      "collections_ok": true,
+      "keywords_ok": true,
+      "hit_collections": [
+        "durability_factors",
+        "flight_stability",
+        "shuttlecock_specs",
+        "speed_grade"
+      ],
+      "passed": true
+    }
+  ]
+}

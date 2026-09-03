@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# 环境变量
+.env
+
+# 日志
+logs/
+
+# 数据（保留目录结构，忽略文件内容）
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# 数据库文件
+data/app.db
+data/app.db-shm
+data/app.db-wal
+
+# 向量库（运行产物，可由 pipeline 重新生成）
+data/chroma/
+
+# Wiki 派生层（运行产物，可由 `python -m scripts.build_wiki` 重新生成；需要 review 时删除本条即可）
+data/wiki/
+
+# 上传文档（运行产物）
+data/uploads/
+
+# CLI 批量入库目录（运行产物，仅保留目录结构与 .gitkeep）
+data/raw_docs/**
+!data/raw_docs/.gitkeep
+!data/raw_docs/pdfs/
+!data/raw_docs/pdfs/.gitkeep
+!data/raw_docs/images/
+!data/raw_docs/images/.gitkeep
+
+# 前端产物（package-lock.json 需提交：Docker 构建用 npm ci）
+web/node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo
+
+# claude文件
+.claude/
+
+
+# ΢�ſ����߹�����Ŀ���ã����ر������� AppID ����⣩
+project.config.json
+project.private.config.json

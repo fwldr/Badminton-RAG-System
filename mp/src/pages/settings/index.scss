@@ -1,0 +1,43 @@
+/* 设置：账号绑定（微信/手机号）+ 清除缓存 + 隐私与关于 */
+
+@import '../../styles/theme.scss';
+
+.page { min-height: 100vh; background: $bg; padding: 24rpx 32rpx 60rpx; }
+
+.card {
+  background: #fff;
+  border-radius: 40rpx;
+  padding: 8rpx 28rpx;
+  margin-bottom: 24rpx;
+  box-shadow: $shadow;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+  padding: 26rpx 0;
+}
+.row + .row { border-top: 2rpx solid $line; }
+.row .ic { width: 62rpx; height: 62rpx; border-radius: 18rpx; background: $g-50; display: flex; align-items: center; justify-content: center; font-size: 30rpx; }
+.row .lbl { flex: 1; min-width: 0; }
+.row .lbl .t { font-size: 28rpx; font-weight: 600; display: block; }
+.row .lbl .s { font-size: 21rpx; color: $ink-3; }
+.row .state { color: $g-700; font-size: 22rpx; }
+.row .state.off { color: $ink-3; }
+.row .btn {
+  font-size: 22rpx;
+  padding: 10rpx 26rpx;
+  border-radius: 999rpx;
+}
+.row .btn.primary { background: $grad-brand; color: #fff; }
+.row .btn.danger { background: #fde8e8; color: #dc2626; }
+.row .btn.subtle { background: $g-50; color: $g-700; }
+
+.field-label { font-size: 24rpx; color: $ink-2; font-weight: 700; margin: 14rpx 0 10rpx; }
+.field-label:first-child { margin-top: 0; }
+
+.about { text-align: center; padding: 20rpx 0 4rpx; }
+.about .logo { font-size: 72rpx; }
+.about .name { margin-top: 10rpx; font-size: 30rpx; font-weight: 800; letter-spacing: 4rpx; }
+.about .ver { margin-top: 6rpx; font-size: 21rpx; color: $ink-3; }
+.about .desc { margin-top: 14rpx; font-size: 21rpx; color: $ink-3; line-height: 1.8; padding: 0 20rpx; }

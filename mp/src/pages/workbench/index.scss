@@ -1,0 +1,107 @@
+/* 工作台（W3 完整）：会话历史（搜索/标签/操作）+ 收藏夹（文件夹/移动/删除） */
+
+@import '../../styles/theme.scss';
+
+.page { min-height: 100vh; background: $bg; padding: 24rpx 32rpx; }
+
+.filter-strip { display: flex; gap: 12rpx; margin-bottom: 20rpx; }
+.chip {
+  flex-shrink: 0;
+  padding: 12rpx 24rpx;
+  border-radius: 999rpx;
+  background: #fff;
+  color: $ink-2;
+  border: 2rpx solid $line;
+  font-size: 23rpx;
+}
+.chip.active { background: $g-700; border-color: $g-700; color: #fff; }
+
+.sec-hd { display: flex; align-items: baseline; margin: 22rpx 4rpx 16rpx; }
+.sec-hd .t { font-size: 32rpx; font-weight: 800; }
+.sec-hd .more { margin-left: auto; font-size: 22rpx; color: $g-700; }
+
+.conv {
+  display: flex;
+  gap: 20rpx;
+  background: #fff;
+  border-radius: 40rpx;
+  padding: 26rpx 28rpx;
+  margin-bottom: 18rpx;
+  box-shadow: $shadow;
+}
+.conv .thumb {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 28rpx;
+  background: $g-50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+  flex-shrink: 0;
+}
+.conv .body { flex: 1; min-width: 0; }
+.conv .tt { display: flex; align-items: center; gap: 12rpx; }
+.conv .tt .t { font-size: 27rpx; font-weight: 700; }
+.conv .tt time { margin-left: auto; font-size: 20rpx; color: $ink-3; }
+.conv .prev {
+  margin-top: 6rpx;
+  font-size: 23rpx;
+  color: $ink-3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.conv .tags { margin-top: 12rpx; display: flex; gap: 10rpx; align-items: center; }
+.conv .tag { font-size: 20rpx; color: $g-700; background: $g-100; padding: 4rpx 14rpx; border-radius: 999rpx; }
+.conv .ops { margin-left: auto; display: flex; gap: 8rpx; }
+.conv .op {
+  font-size: 20rpx;
+  color: $ink-3;
+  background: $bg;
+  border-radius: 999rpx;
+  padding: 6rpx 16rpx;
+}
+
+.folder {
+  display: inline-flex;
+  align-items: center;
+  gap: 8rpx;
+  background: #fff;
+  border-radius: 30rpx;
+  padding: 18rpx 26rpx;
+  font-size: 24rpx;
+  color: $ink-2;
+  box-shadow: $shadow;
+  margin: 0 12rpx 12rpx 0;
+}
+.folder .x { color: #dc2626; font-size: 20rpx; padding-left: 6rpx; }
+
+.fav {
+  background: #fff;
+  border-radius: 36rpx;
+  padding: 24rpx 28rpx;
+  margin-bottom: 16rpx;
+  box-shadow: $shadow;
+}
+.fav .q { font-size: 26rpx; font-weight: 700; }
+.fav .a {
+  margin-top: 8rpx;
+  font-size: 23rpx;
+  color: $ink-2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.fav .ft {
+  margin-top: 14rpx;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10rpx;
+}
+.fav .op { font-size: 20rpx; color: $ink-3; background: $bg; border-radius: 999rpx; padding: 6rpx 18rpx; }
+.fav .op.on { background: $g-100; color: $g-700; }
+
+.state { text-align: center; padding: 80rpx 0; color: $ink-3; font-size: 26rpx; }

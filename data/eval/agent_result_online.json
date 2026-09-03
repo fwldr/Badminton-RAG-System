@@ -1,0 +1,480 @@
+{
+  "mode": "online",
+  "repeat": 1,
+  "generated_at": "2026-08-23T00:09:48",
+  "total": 20,
+  "passed": 18,
+  "pass_rate": 0.9,
+  "results": [
+    {
+      "id": "a01",
+      "question": "夏天和冬天分别应该选什么速度的羽毛球",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "夏天应选慢速球（如75），冬天应选快速球（如78）。具体标准如下：\n1. 夏天（高温25°C以上）：选75（慢速）球，因为高温下毛片变软，且空气阻力影响小，慢速球可避免球速过快出界，适用于热带/亚热带地区夏季。\n2. 冬天（低温15°C以下",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "夏天应选慢速球（如75），冬天应选快速球（如78）。具体标准如下：\n1. 夏天（高温25°C以上）：选75（慢速）球，因为高温下毛片变软，且空气阻力影响小，慢速球可避免球速过快出界，适用于热带/亚热带地区夏季。\n2. 冬天（低温15°C以下",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a02",
+      "question": "新手应该买什么类型的球拍，先练什么步法",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "新手选择球拍时，应优先考虑参数较轻（如4U）、磅数适中（如24-27磅）且为灵活型的入门级球拍，例如威克多神速50J（4U，最高磅数27，参考价334元）或川崎大师600（最高磅数30，均衡平衡点，灵活型）。这类球拍易上手，利于培养手感。步",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "新手选择球拍时，应优先考虑参数较轻（如4U）、磅数适中（如24-27磅）且为灵活型的入门级球拍，例如威克多神速50J（4U，最高磅数27，参考价334元）或川崎大师600（最高磅数30，均衡平衡点，灵活型）。这类球拍易上手，利于培养手感。步",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a03",
+      "question": "全软木球头和双拼球头哪个更适合比赛，为什么",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "全软木球头更适合比赛。其结构为纯天然软木，分子结构呈网状，打感弹性足、手感清脆扎实、出球速度快，耐打性优秀（受压折叠后迅速还原），是高强度比赛和高水平球员的首选；而双拼球头为复合软木（前半再生软木+后半台纤），打感偏硬、弹性较差、长期使用易",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "全软木球头更适合比赛。其结构为纯天然软木，分子结构呈网状，打感弹性足、手感清脆扎实、出球速度快，耐打性优秀（受压折叠后迅速还原），是高强度比赛和高水平球员的首选；而双拼球头为复合软木（前半再生软木+后半台纤），打感偏硬、弹性较差、长期使用易",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a04",
+      "question": "鹅毛和鸭毛哪个更耐打，飞行稳定性又有什么区别",
+      "route": "equipment",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": false,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "鹅毛和鸭毛在耐打性和飞行稳定性上各有优劣。耐打性方面，鸭毛中鸭单边耐打性最高（来源：毛片类型 鸭单边），鹅毛中鹅大刀（鹅驼背）耐打性很强（来源：毛片类型 鹅大刀(鹅驼背)）；飞行稳定性方面，鹅毛整体优于鸭毛，稳定性排序为鹅刀翎(全圆)＞鹅方",
+      "attempts": [
+        {
+          "route": "equipment",
+          "route_ok": false,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "鹅毛和鸭毛在耐打性和飞行稳定性上各有优劣。耐打性方面，鸭毛中鸭单边耐打性最高（来源：毛片类型 鸭单边），鹅毛中鹅大刀（鹅驼背）耐打性很强（来源：毛片类型 鹅大刀(鹅驼背)）；飞行稳定性方面，鹅毛整体优于鸭毛，稳定性排序为鹅刀翎(全圆)＞鹅方",
+          "passed": false
+        }
+      ],
+      "passed": false
+    },
+    {
+      "id": "a05",
+      "question": "4U的进攻型球拍和5U的有什么区别，分别适合什么人",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "4U和5U球拍在重量上差异明显，4U约80-84克，挥拍较快，适合攻防转换和女性球友；5U约75-79克，挥速最快，适合初学者和力量偏弱选手。对于进攻型球拍，4U在击球力量上更扎实，控制性较好；5U挥拍速度更快，灵活性突出。适合使用4U进攻",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "4U和5U球拍在重量上差异明显，4U约80-84克，挥拍较快，适合攻防转换和女性球友；5U约75-79克，挥速最快，适合初学者和力量偏弱选手。对于进攻型球拍，4U在击球力量上更扎实，控制性较好；5U挥拍速度更快，灵活性突出。适合使用4U进攻",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a06",
+      "question": "推荐一款红色手胶，顺便说说PU材质和毛巾材质哪个好",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": false,
+      "keywords_ok": false,
+      "answer": "知识库中暂无相关信息",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": false,
+          "keywords_ok": false,
+          "answer": "知识库中暂无相关信息",
+          "passed": false
+        }
+      ],
+      "passed": false
+    },
+    {
+      "id": "a07",
+      "question": "单打和双打的场地边界有什么区别，发球规则又有什么不同",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "单打和双打场地边界的主要区别在于有效区域：单打使用外侧边线和底线（发球时发到斜对角单打发球区）；双打在对打中使用外侧边线和底线，但发球时使用内侧边线和双打后发球线。在发球规则上，单打发球区前发球线距网1.98m，后发球线为底线；双打发球区前",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "单打和双打场地边界的主要区别在于有效区域：单打使用外侧边线和底线（发球时发到斜对角单打发球区）；双打在对打中使用外侧边线和底线，但发球时使用内侧边线和双打后发球线。在发球规则上，单打发球区前发球线距网1.98m，后发球线为底线；双打发球区前",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a08",
+      "question": "拉吊突击战术适合什么场景，练习时要注意什么",
+      "route": "multi",
+      "expect_routes": [
+        "multi",
+        "technique"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "拉吊突击战术（单打）适用场景为单打比赛，且自身进攻能力较强但体能有限时。练习时需注意：拉吊阶段要有耐心，不急于进攻；突击时机要准确（对方回球半场高球时）；突击后要有连续进攻的准备（来源：战术 单打）。此外，可参考四方球战术（单打）的相关要点",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "拉吊突击战术（单打）适用场景为单打比赛，且自身进攻能力较强但体能有限时。练习时需注意：拉吊阶段要有耐心，不急于进攻；突击时机要准确（对方回球半场高球时）；突击后要有连续进攻的准备（来源：战术 单打）。此外，可参考四方球战术（单打）的相关要点",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a09",
+      "question": "发球时击球点超过1.15米会怎样，发球过低算违例吗",
+      "route": "rules",
+      "expect_routes": [
+        "rules",
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "发球时击球点超过1.15米会判发球违例，对方得分；发球过低（未明确为违例，但根据规则，只要击球点不超过1.15米，且符合其他发球规则，一般不判违例，若过低导致球未过网或未进入发球区，则判违例）。\n\n来源：常见判罚 发球过高；BWF官方规则 ",
+      "attempts": [
+        {
+          "route": "rules",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "发球时击球点超过1.15米会判发球违例，对方得分；发球过低（未明确为违例，但根据规则，只要击球点不超过1.15米，且符合其他发球规则，一般不判违例，若过低导致球未过网或未进入发球区，则判违例）。\n\n来源：常见判罚 发球过高；BWF官方规则 ",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a10",
+      "question": "冬天打羽毛球应该选什么球速，球头选什么材质更耐打",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "冬天打羽毛球建议选择快速球（78速），因为低温下空气密度大，球速会变慢，78速可以弥补这一影响，适合15°C以下的寒冷环境；若温度在15-20°C，可选择77速（中速）。球头材质方面，双拼复合软木（如向羽E300、凯胜KS09）耐打性一般，",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "冬天打羽毛球建议选择快速球（78速），因为低温下空气密度大，球速会变慢，78速可以弥补这一影响，适合15°C以下的寒冷环境；若温度在15-20°C，可选择77速（中速）。球头材质方面，双拼复合软木（如向羽E300、凯胜KS09）耐打性一般，",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a11",
+      "question": "推荐一款适合女生的进攻型球拍，配什么球线好",
+      "route": "equipment",
+      "expect_routes": [
+        "equipment",
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "根据检索内容，适合女生的进攻型球拍有以下推荐：\n1. 尤尼克斯 VT-FLCW（4U，最高27磅，进攻型，通用级）——适合女生使用，球线建议搭配高弹线如BG66UM或BG80，以提升杀球威力。\n2. 李宁 AYPT053（4U/5U，最高3",
+      "attempts": [
+        {
+          "route": "equipment",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "根据检索内容，适合女生的进攻型球拍有以下推荐：\n1. 尤尼克斯 VT-FLCW（4U，最高27磅，进攻型，通用级）——适合女生使用，球线建议搭配高弹线如BG66UM或BG80，以提升杀球威力。\n2. 李宁 AYPT053（4U/5U，最高3",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a12",
+      "question": "为什么有的羽毛球飞行不稳，怎么选更稳的球",
+      "route": "equipment",
+      "expect_routes": [
+        "equipment",
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "羽毛球飞行不稳通常与毛片类型和质量有关。鹅拉直（鹅弯毛）和鸭弯毛因毛片弯曲度大、需拉直加工，损伤毛片，导致飞行稳定性较差，耐打性也较低，适用于中低档训练用球（来源：毛片类型 鹅拉直(鹅弯毛)、毛片类型 鸭弯毛）。水鸭驼背毛叶宽则飞行稳定，但",
+      "attempts": [
+        {
+          "route": "equipment",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "羽毛球飞行不稳通常与毛片类型和质量有关。鹅拉直（鹅弯毛）和鸭弯毛因毛片弯曲度大、需拉直加工，损伤毛片，导致飞行稳定性较差，耐打性也较低，适用于中低档训练用球（来源：毛片类型 鹅拉直(鹅弯毛)、毛片类型 鸭弯毛）。水鸭驼背毛叶宽则飞行稳定，但",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a13",
+      "question": "双打站位战术有哪些，和单打战术有什么区别",
+      "route": "multi",
+      "expect_routes": [
+        "multi",
+        "technique"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "双打站位战术的常见类型主要包括：左右站位防守、前后站位进攻和轮转战术。左右站位防守是双方平分场地左右站位，各自负责半场防守区域，适用于被动防守阶段；前后站位进攻是前场球员负责网前封堵和搓球，后场球员负责杀球和吊球，形成进攻态势；轮转战术则是",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "双打站位战术的常见类型主要包括：左右站位防守、前后站位进攻和轮转战术。左右站位防守是双方平分场地左右站位，各自负责半场防守区域，适用于被动防守阶段；前后站位进攻是前场球员负责网前封堵和搓球，后场球员负责杀球和吊球，形成进攻态势；轮转战术则是",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a14",
+      "question": "高磅数球拍适合什么人，拉线磅数太高会怎样",
+      "route": "equipment",
+      "expect_routes": [
+        "multi",
+        "equipment"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "高磅数（高于28LBS）球拍适合控球精准但需要力量支撑的进阶选手，因为高磅弹性差。拉线磅数太高会导致弹性差，可能缺乏力量支撑，不适合初学者。来源：规格常识 拉线磅数",
+      "attempts": [
+        {
+          "route": "equipment",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "高磅数（高于28LBS）球拍适合控球精准但需要力量支撑的进阶选手，因为高磅弹性差。拉线磅数太高会导致弹性差，可能缺乏力量支撑，不适合初学者。来源：规格常识 拉线磅数",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a15",
+      "question": "初学者买球拍选3U还是4U，球拍太重会有什么影响",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "初学者建议优先选择4U球拍。4U重量约80-84克，较轻，挥拍快，适合攻防转换，对初学者更易操控。3U重量约85-89克，虽然攻守兼备且适合大多数选手，但对初学者可能偏重。球拍过重会导致挥拍速度变慢，影响击球反应时间，增加手腕和手臂负担，容",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "初学者建议优先选择4U球拍。4U重量约80-84克，较轻，挥拍快，适合攻防转换，对初学者更易操控。3U重量约85-89克，虽然攻守兼备且适合大多数选手，但对初学者可能偏重。球拍过重会导致挥拍速度变慢，影响击球反应时间，增加手腕和手臂负担，容",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a16",
+      "question": "羽毛球的球速76和77差别大吗，高温和低温分别怎么选",
+      "route": "multi",
+      "expect_routes": [
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "76和77球速差别较大。77（中速）比76（中慢速）飞行速度更快，适用温度更低。高温（25°C以上）选75（慢速），低温（15°C以下）选78（快速）。76适用于20-25°C，77适用于15-20°C。来源：速度等级 76(中慢速)；速度",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "76和77球速差别较大。77（中速）比76（中慢速）飞行速度更快，适用温度更低。高温（25°C以上）选75（慢速），低温（15°C以下）选78（快速）。76适用于20-25°C，77适用于15-20°C。来源：速度等级 76(中慢速)；速度",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a17",
+      "question": "正手高远球怎么打，打不远是什么原因",
+      "route": "technique",
+      "expect_routes": [
+        "technique",
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "正手高远球打不远常见原因包括：击球点过低，导致球不够高不够远；手臂直臂挥动而非内旋发力，力量传递效率低；击球后手臂不收导致失去平衡，影响动作连贯性。正确动作要领：侧身转体，抬肘亮肘，手臂后倒，小臂内旋发力，在最高点击球；击球后手臂自然收至身",
+      "attempts": [
+        {
+          "route": "technique",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "正手高远球打不远常见原因包括：击球点过低，导致球不够高不够远；手臂直臂挥动而非内旋发力，力量传递效率低；击球后手臂不收导致失去平衡，影响动作连贯性。正确动作要领：侧身转体，抬肘亮肘，手臂后倒，小臂内旋发力，在最高点击球；击球后手臂自然收至身",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a18",
+      "question": "反手握拍的动作要领是什么，常见的错误有哪些",
+      "route": "technique",
+      "expect_routes": [
+        "technique",
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "反手握拍的动作要领：在正手握拍基础上，拇指和食指将拍柄稍向外转，拇指顶点在拍柄内侧宽面或内侧棱上，掌心留有空隙，球拍斜侧向身体左侧，拍面稍后仰。常见错误：拇指位置不对（顶在拍柄宽面而非棱上）导致发力困难；手腕过度内翻导致受伤。来源：手法技术",
+      "attempts": [
+        {
+          "route": "technique",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "反手握拍的动作要领：在正手握拍基础上，拇指和食指将拍柄稍向外转，拇指顶点在拍柄内侧宽面或内侧棱上，掌心留有空隙，球拍斜侧向身体左侧，拍面稍后仰。常见错误：拇指位置不对（顶在拍柄宽面而非棱上）导致发力困难；手腕过度内翻导致受伤。来源：手法技术",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a19",
+      "question": "球拍平衡点靠前和靠后有什么区别，进攻型选手选哪个",
+      "route": "multi",
+      "expect_routes": [
+        "multi",
+        "equipment"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "球拍平衡点靠前（头重）击球力量大，适合进攻型打法，杀球有力；平衡点靠后（头轻）挥拍灵活，防守好，适合速度型打法。进攻型选手应优先选择平衡点靠前（头重）的球拍。\n\n来源：规格常识 平衡点类别",
+      "attempts": [
+        {
+          "route": "multi",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "球拍平衡点靠前（头重）击球力量大，适合进攻型打法，杀球有力；平衡点靠后（头轻）挥拍灵活，防守好，适合速度型打法。进攻型选手应优先选择平衡点靠前（头重）的球拍。\n\n来源：规格常识 平衡点类别",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "a20",
+      "question": "什么是四方球战术，对新手来说好掌握吗",
+      "route": "technique",
+      "expect_routes": [
+        "technique",
+        "multi"
+      ],
+      "route_ok": true,
+      "fallback_ok": true,
+      "keywords_ok": true,
+      "answer": "四方球战术（单打）是指运用高远球和吊球将球打到对方场地四个角（前后左右），调动对手大范围跑动，创造进攻机会。该战术适用场景为单打比赛，尤其适合对手移动能力一般或步法不灵活时。战术要点包括：高远球和吊球动作要一致以增加隐蔽性；落点要深，尽量打",
+      "attempts": [
+        {
+          "route": "technique",
+          "route_ok": true,
+          "fallback_ok": true,
+          "keywords_ok": true,
+          "answer": "四方球战术（单打）是指运用高远球和吊球将球打到对方场地四个角（前后左右），调动对手大范围跑动，创造进攻机会。该战术适用场景为单打比赛，尤其适合对手移动能力一般或步法不灵活时。战术要点包括：高远球和吊球动作要一致以增加隐蔽性；落点要深，尽量打",
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ]
+}
