@@ -49,6 +49,8 @@ web/tsconfig.tsbuildinfo
 .claude/
 
 
-# ΢�ſ����߹�����Ŀ���ã����ر������� AppID ����⣩
+
 project.config.json
 project.private.config.json
+
+web/.vite/*
