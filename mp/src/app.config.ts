@@ -9,8 +9,6 @@ export default defineAppConfig({
     'pages/profile/index',       // 我的
     'pages/login/index',         // 登录
     'pages/conv-detail/index',   // 会话详情（历史回放 + 续聊）
-    'pages/post-create/index',   // 发布动态
-    'pages/post-detail/index',   // 动态详情（回复楼）
     'pages/notifications/index', // 消息通知
     'pages/corrections/index',   // 我的纠错
     'pages/qa-detail/index',     // 问答分享详情（转发落地）

@@ -137,7 +137,6 @@ export default function ProfilePage() {
         </View>
         <View className="stats">
           <View className="s"><Text className="b">—</Text><Text>收藏</Text></View>
-          <View className="s"><Text className="b">—</Text><Text>动态</Text></View>
           <View className="s"><Text className="b">—</Text><Text>纠错</Text></View>
         </View>
       </View>

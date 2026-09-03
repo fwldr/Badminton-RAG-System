@@ -1,4 +1,5 @@
-/** 用户端数据：目录/热门/会话/收藏/动态/通知/纠错（全部映射现有后端接口）。 */
+/** 用户端数据：目录/热门/会话/收藏/通知/纠错（全部映射现有后端接口）。
+ *  注：球友动态（/user/posts*）接口封装已随小程序端功能移除——个人主体不提供 UGC 社交能力；后端与 Web 端不受影响。 */
 
 import Taro from '@tarojs/taro'
 import { API_BASE_URL, getToken, request, type ListResp } from './request'
@@ -119,63 +120,6 @@ export function deleteFavorite(favId: number): Promise<{ id: number }> {
   return request(`/user/favorites/${favId}`, { method: 'DELETE' })
 }
 
-// ---------- 动态（登录） ----------
-
-export interface PostItem {
-  id: number
-  user_id: number
-  author_nickname: string
-  author_avatar: string | null
-  content: string
-  images: string[]
-  likes: number
-  reply_count: number
-  liked: boolean
-  created_at: string
-}
-
-export interface ReplyItem {
-  id: number
-  user_id: number
-  author_nickname: string
-  author_avatar: string | null
-  content: string
-  created_at: string
-  likes: number
-  liked: boolean
-  reply_to_nickname: string
-  parent_id?: number
-  children?: ReplyItem[]
-}
-
-export function getPostDetail(postId: number): Promise<{ post: PostItem }> {
-  return request(`/user/posts/${postId}`)
-}
-
-export function listReplies(postId: number): Promise<{ replies: ReplyItem[] }> {
-  return request(`/user/posts/${postId}/replies`)
-}
-
-export function createReply(postId: number, content: string, parentId?: number): Promise<{ id: number }> {
-  return request(`/user/posts/${postId}/replies`, { method: 'POST', data: { content, parent_id: parentId } })
-}
-
-export function toggleReplyLike(replyId: number): Promise<{ id: number; liked: boolean; likes: number }> {
-  return request(`/user/replies/${replyId}/like`, { method: 'POST' })
-}
-
-export function listPosts(params: { limit?: number; offset?: number } = {}): Promise<{ posts: PostItem[]; total: number }> {
-  return request(`/user/posts${qs(params)}`)
-}
-
-export function createPost(payload: { content: string; images?: string[] }): Promise<{ id: number }> {
-  return request('/user/posts', { method: 'POST', data: payload })
-}
-
-export function togglePostLike(postId: number): Promise<{ id: number; liked: boolean; likes: number }> {
-  return request(`/user/posts/${postId}/like`, { method: 'POST' })
-}
-
 // ---------- 通知（登录） ----------
 
 export interface NotificationItem {
@@ -221,7 +165,7 @@ export function submitCorrection(payload: {
   return request('/user/corrections', { method: 'POST', data: payload })
 }
 
-// ---------- 图片上传（动态配图，≤2MB） ----------
+// ---------- 图片上传（头像等，≤2MB） ----------
 
 export function uploadImage(filePath: string): Promise<{ path: string }> {
   // wx.uploadFile 与统一 request 不同（multipart），单独走 Taro.uploadFile

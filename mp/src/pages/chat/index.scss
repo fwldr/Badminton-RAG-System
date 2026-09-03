@@ -49,11 +49,21 @@
   line-height: 1.8;
 }
 
-/* —— 预设与范围 —— */
-.preset-strip {
+/* —— 快捷提问行（对齐 Web 端布局：预设胶囊横向滚动 + 范围下拉同行右侧） —— */
+.quick-row {
   display: flex;
+  align-items: center;
   gap: 14rpx;
   padding: 20rpx 32rpx 8rpx;
+}
+.preset-scroll {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap; // scroll-x 子内容不换行
+}
+.preset-strip {
+  display: inline-flex;
+  gap: 14rpx;
 }
 .chip {
   flex-shrink: 0;
@@ -64,9 +74,13 @@
   border: 2rpx solid $line;
   font-size: 25rpx;
 }
-.chip.active { background: $g-700; border-color: $g-700; color: #fff; }
-.chip.amber { background: $amber-soft; border-color: #fde6ad; color: $amber-deep; }
-.cat-row { padding: 10rpx 32rpx; }
+.scope-picker { flex-shrink: 0; }
+.scope-pill {
+  border-color: $g-200;
+  color: $g-700;
+  font-weight: 600;
+  white-space: nowrap;
+}
 
 /* —— 消息区（scroll-view 滚动容器，输入条固定底部） ——
    水平留白放在内部 .msg-list 上（微信 scroll-view 对 padding 的支持有怪异，见头像贴边问题） */

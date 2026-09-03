@@ -1,6 +1,6 @@
-/** 提问首页（W2 完整版）：问候态 / 预设卡 / 范围限定 / 气泡全状态（Markdown·缓存·失败重试）/
+/** 提问首页（W2 完整版）：问候态 / 预设卡+范围下拉同行 / 气泡全状态（Markdown·缓存·失败重试）/
  *  引用来源面板（遵循 pref_show_sources）/ 图片内联与预览 / 赞踩反馈。
- *  对应设计方案 §4.2 与原型 chat.html。 */
+ *  输入区布局对齐 Web 端（预设胶囊行右侧挂范围下拉；输入行＝输入框 + 发送）。 */
 
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Taro, { useDidShow } from '@tarojs/taro'
@@ -197,22 +197,25 @@ export default function ChatPage() {
         </View>
       )}
 
-      <ScrollView scrollX enableFlex>
-        <View className="preset-strip">
-          {PRESETS.map((p) => (
-            <View key={p} className={`chip${p === PRESETS[0] ? ' active' : ''}`} onClick={() => void handleSend(p)}>
-              {p}
-            </View>
-          ))}
-        </View>
-      </ScrollView>
-      <View className="cat-row">
+      {/* 快捷提问行：预设胶囊（横向滚动）+ 范围下拉（右侧，对齐 Web 端布局） */}
+      <View className="quick-row">
+        <ScrollView className="preset-scroll" scrollX enableFlex>
+          <View className="preset-strip">
+            {PRESETS.map((p) => (
+              <View key={p} className="chip" onClick={() => void handleSend(p)}>
+                {p}
+              </View>
+            ))}
+          </View>
+        </ScrollView>
         <Picker
+          className="scope-picker"
           mode="selector"
           range={SCOPES.map((s) => s.label)}
+          value={scope}
           onChange={(e) => setScope(Number(e.detail.value))}
         >
-          <View className="chip amber scope-pill">{SCOPES[scope].label} ▾</View>
+          <View className="chip scope-pill">{SCOPES[scope].label} ▾</View>
         </Picker>
       </View>
 

@@ -42,7 +42,7 @@ export default function LoginPage() {
       <View className="body">
         <Text className="title">微信一键登录 · 三秒开问</Text>
         <View className="sub">
-          登录后可保存多轮对话、收藏问答、发布动态并纠错，助手会记住你的水平与偏好。
+          登录后可保存多轮对话、收藏问答并提交纠错，助手会记住你的水平与偏好。
         </View>
         <Button className={`wechat-btn${loggingIn ? ' loading' : ''}`} disabled={loggingIn} onClick={() => void handleLogin()}>
           {loggingIn ? '登录中…' : '💬 微信一键登录'}

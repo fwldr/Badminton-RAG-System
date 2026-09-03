@@ -5,6 +5,8 @@ export interface AuthUser {
   username: string
   role: 'user' | 'admin'
   nickname?: string | null
+  /** 模块权限 JSON 字符串（后端 user_to_public 原样透出）：NULL/''=全部、'[]'=无、数组=仅所列模块 */
+  permissions?: string | null
   is_active?: number
   created_at?: string
   last_active_at?: string
